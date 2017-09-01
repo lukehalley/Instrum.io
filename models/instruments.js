@@ -7,7 +7,8 @@ var InstrumentSchema = new mongoose.Schema({
     instrumenttype: String,
     // Price of the instrument, eg - 23
     instrumentprice: Number,
-    upvotes: {type: Number, default: 0}
+    // The amount of times an instrument has been purchased, eg - 4
+    purchases: {type: Number, default: 0}
 });
 
 module.exports = mongoose.model('Instrument', InstrumentSchema);
