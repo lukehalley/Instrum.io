@@ -10,11 +10,13 @@ var db = mongoose.connection;
 db.on('error', function (err) {
     console.log('connection error', err);
 });
+
 db.once('open', function () {
     console.log('connected to database');
 });
 
-router.findAll = function(req, res) {
+// GET - Finds all instruments in database
+router.findAllInstruments = function(req, res) {
     // Use the Instrument model to find all instrument
     Instrument.find(function(err, instruments) {
         if (err)
@@ -24,7 +26,8 @@ router.findAll = function(req, res) {
     });
 }
 
-router.findOne = function(req, res) {
+// GET - Finds one instrument given an id
+router.findOneInstrument = function(req, res) {
 
     // Use the Instrument model to find a single instrument
     Instrument.find({ "_id" : req.params.id },function(err, instrument) {
@@ -35,7 +38,8 @@ router.findOne = function(req, res) {
     });
 }
 
-router.addInstrument = function(req, res) {
+// POST - Adds an instrument given some JSON data
+router.addOneInstrument = function(req, res) {
 
     var instrument = new Instrument();
     instrument.instrumentname = req.body.instrumentname;
@@ -54,31 +58,39 @@ router.addInstrument = function(req, res) {
     });
 }
 
-router.deleteInstrument = function(req, res) {
+// PUT - Updates an instrument given some JSON data
+router.updateOneInstrument = function(req, res) {
 
-    Instrument.findByIdAndRemove(req.params.id, function(err) {
-        if (err)
-            res.send(err);
-        else
-            res.json({ message: 'Instrument Deleted!'});
-    });
-}
-
-router.incrementUpvotes = function(req, res) {
-
-    Instrument.findById(req.params.id, function(err,instrument) {
+    Instrument.findByIdAndUpdate(req.params.id,{$set:req.body}, function(err, result){
         if (err)
             res.send(err);
         else {
-            instrument.upvotes += 1;
-            instrument.save(function (err) {
-                if (err)
-                    res.send(err);
-                else
-                res.json({ message: 'Instrument Upvoted!', data: instrument });
-            });
+            console.log("RESULT: " + result);
+            res.json({message: 'Instrument Updated!', data: instrument});
         }
     });
+};
+
+// DELETE - Deletes one instrument given an id
+router.deleteOneInstrument = function(req, res) {
+
+    Instrument.findByIdAndRemove(req.params.id, function (err) {
+        if (err)
+            res.send(err);
+        else
+            res.json({message: 'Instrument Deleted!'});
+    });
 }
+
+router.deleteAllInstruments = function(req, res) {
+
+    Instrument.remove({}, function(err) {
+        if (err)
+            res.send(err);
+        else
+            res.json({ message: 'All Instruments Deleted!'});
+    });
+}
+
 
 module.exports = router;
