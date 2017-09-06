@@ -58,18 +58,35 @@ router.addOneInstrument = function(req, res) {
     });
 }
 
-// PUT - Updates an instrument given some JSON data
-router.updateOneInstrument = function(req, res) {
+// // PUT - Updates an instrument given some JSON data
+// router.updateOneInstrument = function(req, res) {
+//
+//     Instrument.findByIdAndUpdate(req.params.id,{$set:req.body}, function(err, result){
+//         if (err)
+//             res.send(err);
+//         else {
+//             console.log("RESULT: " + result);
+//             res.json({message: 'Instrument Updated!', data: instrument});
+//         }
+//     });
+// };
 
-    Instrument.findByIdAndUpdate(req.params.id,{$set:req.body}, function(err, result){
+router.incrementPurchases = function(req, res) {
+
+    Instrument.findById(req.params.id, function(err,instrument) {
         if (err)
             res.send(err);
         else {
-            console.log("RESULT: " + result);
-            res.json({message: 'Instrument Updated!', data: instrument});
+            instrument.purchases += 1;
+            instrument.save(function (err) {
+                if (err)
+                    res.send(err);
+                else
+                    res.json({ message: 'instrument Upvoted!', data: instrument });
+            });
         }
     });
-};
+}
 
 // DELETE - Deletes one instrument given an id
 router.deleteOneInstrument = function(req, res) {
@@ -91,6 +108,5 @@ router.deleteAllInstruments = function(req, res) {
             res.json({ message: 'All Instruments Deleted!'});
     });
 }
-
 
 module.exports = router;
