@@ -28,7 +28,8 @@ app.use('/', routes);
 app.get('/instrumentals', instrumentals.findAllInstrumentals);
 app.get('/instrumentals/:id', instrumentals.findOneInstrumental);
 app.post('/instrumentals', instrumentals.addOneInstrumental);
-app.put('/instrumentals/:id/purchases', instrumentals.incrementPurchases);
+app.put('/instrumentals/:id/purchases', instrumentals.purchaseInstrumental);
+app.put('/instrumentals/:id/', instrumentals.updateInstrumental);
 app.delete('/instrumentals/:id', instrumentals.deleteOneInstrumental);
 app.delete('/instrumentals', instrumentals.deleteAllInstrumentals);
 

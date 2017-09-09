@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="979b246d-7220-4f0d-85d2-48d57678e980" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/instrumentalModel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/userModel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/instrumentals.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/instruments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/instruments.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inserts.txt" afterPath="$PROJECT_DIR$/inserts.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/users.js" afterPath="$PROJECT_DIR$/routes/users.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/userModel.js" afterPath="$PROJECT_DIR$/models/userModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/instrumentals.js" afterPath="$PROJECT_DIR$/routes/instrumentals.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,19 +31,28 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="123">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userModel.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/userModel.js">
+      <file leaf-file-name="instrumentals.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/instrumentals.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="120" />
-              <folding />
+            <state relative-caret-position="547">
+              <caret line="100" column="45" lean-forward="true" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
+              <folding>
+                <element signature="e#272#317#0" expanded="false" />
+                <element signature="e#349#394#0" expanded="false" />
+                <element signature="e#492#695#0" expanded="false" />
+                <element signature="e#789#1065#0" expanded="false" />
+                <element signature="e#1166#1825#0" expanded="false" />
+                <element signature="e#1933#2360#0" expanded="false" />
+                <element signature="e#3006#3186#0" expanded="false" />
+                <element signature="e#3285#3465#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,64 +60,8 @@
       <file leaf-file-name="instrumentalModel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/instrumentalModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="68" lean-forward="false" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/users.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
-              <folding>
-                <element signature="e#264#309#0" expanded="false" />
-                <element signature="e#341#386#0" expanded="false" />
-                <element signature="e#466#717#0" expanded="false" />
-                <element signature="e#579#713#0" expanded="false" />
-                <element signature="e#797#976#0" expanded="false" />
-                <element signature="e#1061#1582#0" expanded="false" />
-                <element signature="e#1667#1846#0" expanded="false" />
-                <element signature="e#1929#2101#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="instrumentals.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/instrumentals.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="59" column="47" lean-forward="false" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
-              <folding>
-                <element signature="e#272#317#0" expanded="false" />
-                <element signature="e#349#394#0" expanded="false" />
-                <element signature="e#789#1065#0" expanded="false" />
-                <element signature="e#1933#2354#0" expanded="false" />
-                <element signature="e#2455#2635#0" expanded="false" />
-                <element signature="e#2734#2914#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inserts.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inserts.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="133" />
+            <state relative-caret-position="45">
+              <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -144,7 +91,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response202.json" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response343.json" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -159,19 +106,26 @@
         <option value="$PROJECT_DIR$/routes/instruments.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/inserts.txt" />
-        <option value="$PROJECT_DIR$/routes/instrumentals.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/models/instrumModel.js" />
         <option value="$PROJECT_DIR$/models/instrumentalModel.js" />
         <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/models/userModel.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/instrumentals.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
     <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -183,9 +137,11 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="754" />
+    <option name="y" value="23" />
+    <option name="width" value="1155" />
+    <option name="height" value="1003" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -210,6 +166,11 @@
             <id>Potentially confusing code constructsJavaScript</id>
           </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -292,7 +253,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="6.11.3" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -305,6 +266,809 @@
     <option name="REQUEST_HISTORY">
       <list>
         <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals/59fcae68a6cd1d7b67797261" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;TEST&quot;,&quot;owner&quot;:&quot;LHKBeats&quot;,&quot;genre&quot;:&quot;Trap&quot;,&quot;tags&quot;:&quot;Happy, Bright&quot;,&quot;price&quot;:30,&quot;bpm&quot;:155,&quot;plays&quot;:342,&quot;bpm&quot;:155,&quot;purchases&quot;:2341}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals/59fcae68a6cd1d7b67797261" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;TEST&quot;,&quot;owner&quot;:&quot;LHKBeats&quot;,&quot;genre&quot;:&quot;Trap&quot;,&quot;tags&quot;:&quot;Happy, Bright&quot;,&quot;price&quot;:30,&quot;bpm&quot;:155,&quot;plays&quot;:342,&quot;bpm&quot;:155,&quot;purchases&quot;:999}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;TEST&quot;,&quot;owner&quot;:&quot;LHKBeats&quot;,&quot;genre&quot;:&quot;Trap&quot;,&quot;tags&quot;:&quot;Happy, Bright&quot;,&quot;price&quot;:30,&quot;bpm&quot;:155,&quot;plays&quot;:342,&quot;bpm&quot;:155,&quot;purchases&quot;:3000}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals/59fcaa07e776d65c6388872b" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;TEST&quot;,&quot;owner&quot;:&quot;LHKBeats&quot;,&quot;genre&quot;:&quot;Trap&quot;,&quot;tags&quot;:&quot;Happy, Bright&quot;,&quot;price&quot;:30,&quot;bpm&quot;:155,&quot;plays&quot;:342,&quot;bpm&quot;:155,&quot;purchases&quot;:3000}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals/59fcaa07e776d65c6388872b" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;TEST&quot;,&quot;owner&quot;:&quot;LHKBeats&quot;,&quot;genre&quot;:&quot;Trap&quot;,&quot;tags&quot;:&quot;Happy, Bright&quot;,&quot;price&quot;:30,&quot;bpm&quot;:155,&quot;plays&quot;:342,&quot;bpm&quot;:155,&quot;purchases&quot;:3000}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;TEST&quot;,&quot;owner&quot;:&quot;LHKBeats&quot;,&quot;genre&quot;:&quot;Trap&quot;,&quot;tags&quot;:&quot;Happy, Bright&quot;,&quot;price&quot;:30,&quot;bpm&quot;:155,&quot;plays&quot;:342,&quot;bpm&quot;:155,&quot;purchases&quot;:3000}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals/59fcaa07e776d65c6388872b" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;TEST&quot;,&quot;owner&quot;:&quot;LHKBeats&quot;,&quot;genre&quot;:&quot;Trap&quot;,&quot;tags&quot;:&quot;Happy, Bright&quot;,&quot;price&quot;:30,&quot;bpm&quot;:155,&quot;plays&quot;:342,&quot;bpm&quot;:155,&quot;purchases&quot;:3000}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals/59fcaa07e776d65c6388872b" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;Lucid&quot;,&quot;owner&quot;:&quot;LHKBeats&quot;,&quot;genre&quot;:&quot;Trap&quot;,&quot;tags&quot;:&quot;Happy, Bright&quot;,&quot;price&quot;:30,&quot;bpm&quot;:155,&quot;plays&quot;:342,&quot;bpm&quot;:155,&quot;purchases&quot;:3000}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;Lucid&quot;,&quot;owner&quot;:&quot;LHKBeats&quot;,&quot;genre&quot;:&quot;Trap&quot;,&quot;tags&quot;:&quot;Happy, Bright&quot;,&quot;price&quot;:30,&quot;bpm&quot;:155,&quot;plays&quot;:342,&quot;bpm&quot;:155,&quot;purchases&quot;:3000}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;Lucid&quot;,&quot;owner&quot;:&quot;LHKBeats&quot;,&quot;genre&quot;:&quot;Trap&quot;,&quot;tags&quot;:&quot;Happy, Bright&quot;,&quot;price&quot;:30,&quot;bpm&quot;:155,&quot;plays&quot;:342,&quot;bpm&quot;:155,&quot;purchases&quot;:3000}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;Lucid&quot;,&quot;owner&quot;:&quot;LHKBeats&quot;,&quot;genre&quot;:&quot;Trap&quot;,&quot;tags&quot;:&quot;Happy, Bright&quot;,&quot;price&quot;:30,&quot;bpm&quot;:155,&quot;plays&quot;:342,&quot;bpm&quot;:155,&quot;purchases&quot;:3000}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;Lucid&quot;,&quot;owner&quot;:&quot;LHKBeats&quot;,&quot;genre&quot;:&quot;Trap&quot;,&quot;tags&quot;:&quot;Happy, Bright&quot;,&quot;price&quot;:30,&quot;bpm&quot;:155,&quot;plays&quot;:342,&quot;bpm&quot;:155,&quot;purchases&quot;:3000}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals/59fca92ce776d65c63888728" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;Lucid&quot;,&quot;owner&quot;:&quot;LHKBeats&quot;,&quot;genre&quot;:&quot;Trap&quot;,&quot;tags&quot;:&quot;Happy, Bright&quot;,&quot;price&quot;:30,&quot;bpm&quot;:155,&quot;plays&quot;:342,&quot;bpm&quot;:155,&quot;purchases&quot;:500}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals/59fca92ce776d65c63888728" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;Lucid&quot;,&quot;owner&quot;:&quot;LHKBeats&quot;,&quot;genre&quot;:&quot;Trap&quot;,&quot;tags&quot;:&quot;Happy, Bright&quot;,&quot;price&quot;:30,&quot;bpm&quot;:155,&quot;plays&quot;:342,&quot;bpm&quot;:155,&quot;purchases&quot;:500}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals/59fca92ce776d65c63888728" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;Lucid&quot;,&quot;owner&quot;:&quot;LHKBeats&quot;,&quot;genre&quot;:&quot;Trap&quot;,&quot;tags&quot;:&quot;Happy, Bright&quot;,&quot;price&quot;:30,&quot;bpm&quot;:155,&quot;plays&quot;:342,&quot;bpm&quot;:155,&quot;purchases&quot;:155}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals/59fca92ce776d65c63888728" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;Lucid&quot;,&quot;owner&quot;:&quot;LHKBeats&quot;,&quot;genre&quot;:&quot;Trap&quot;,&quot;tags&quot;:&quot;Happy, Bright&quot;,&quot;price&quot;:30,&quot;bpm&quot;:155,&quot;plays&quot;:342,&quot;bpm&quot;:155,&quot;purchases&quot;:155}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;Lucid&quot;,&quot;owner&quot;:&quot;LHKBeats&quot;,&quot;genre&quot;:&quot;Trap&quot;,&quot;tags&quot;:&quot;Happy, Bright&quot;,&quot;price&quot;:30,&quot;bpm&quot;:155,&quot;plays&quot;:342,&quot;bpm&quot;:155,&quot;purchases&quot;:155}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;Lucid&quot;,&quot;owner&quot;:&quot;LHKBeats&quot;,&quot;genre&quot;:&quot;Trap&quot;,&quot;tags&quot;:&quot;Happy, Bright&quot;,&quot;price&quot;:30,&quot;bpm&quot;:155,&quot;plays&quot;:342,&quot;bpm&quot;:155,&quot;purchases&quot;:155}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;Luke Tyyyy&quot;,&quot;username&quot;:&quot;werwerwer&quot;,&quot;password&quot;:&quot;werwerwr&quot;,&quot;admin&quot;:false,&quot;location&quot;:&quot;sdfsdfsdf&quot;,&quot;age&quot;:234235}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumental/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;Luke Tyyyy&quot;,&quot;username&quot;:&quot;werwerwer&quot;,&quot;password&quot;:&quot;werwerwr&quot;,&quot;admin&quot;:false,&quot;location&quot;:&quot;sdfsdfsdf&quot;,&quot;age&quot;:234235}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="$PROJECT_DIR$/../../" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;Luke Tyyyy&quot;,&quot;username&quot;:&quot;werwerwer&quot;,&quot;password&quot;:&quot;werwerwr&quot;,&quot;admin&quot;:false,&quot;location&quot;:&quot;sdfsdfsdf&quot;,&quot;age&quot;:234235}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="$PROJECT_DIR$/../../" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;Luke Tyyyy&quot;,&quot;username&quot;:&quot;werwerwer&quot;,&quot;password&quot;:&quot;werwerwr&quot;,&quot;admin&quot;:false,&quot;location&quot;:&quot;sdfsdfsdf&quot;,&quot;age&quot;:234235}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="$PROJECT_DIR$/../../59fca0f7c32b19965dbd8692" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;Luke Tyyyy&quot;,&quot;username&quot;:&quot;werwerwer&quot;,&quot;password&quot;:&quot;werwerwr&quot;,&quot;admin&quot;:false,&quot;location&quot;:&quot;sdfsdfsdf&quot;,&quot;age&quot;:234235}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="$PROJECT_DIR$/../.." />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;Luke Tyyyy&quot;,&quot;username&quot;:&quot;werwerwer&quot;,&quot;password&quot;:&quot;werwerwr&quot;,&quot;admin&quot;:false,&quot;location&quot;:&quot;sdfsdfsdf&quot;,&quot;age&quot;:234235}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="$PROJECT_DIR$/../.." />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;Luke Halley&quot;,&quot;username&quot;:&quot;lukehalley123&quot;,&quot;password&quot;:&quot;password123&quot;,&quot;admin&quot;:true,&quot;location&quot;:&quot;Ireland&quot;,&quot;age&quot;:20}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;Luke Halley&quot;,&quot;username&quot;:&quot;lukehalley123&quot;,&quot;password&quot;:&quot;password123&quot;,&quot;admin&quot;:true,&quot;location&quot;:&quot;Ireland&quot;,&quot;age&quot;:20}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;Luke Halley&quot;,&quot;username&quot;:&quot;lukehalley123&quot;,&quot;password&quot;:&quot;password123&quot;,&quot;admin&quot;:true,&quot;location&quot;:&quot;Ireland&quot;,&quot;age&quot;:20}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;Luke Halley&quot;,&quot;username&quot;:&quot;lukehalley123&quot;,&quot;password&quot;:&quot;password123&quot;,&quot;admin&quot;:true,&quot;location&quot;:&quot;Ireland&quot;,&quot;age&quot;:20}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;Luke Halley&quot;,&quot;username&quot;:&quot;lukehalley123&quot;,&quot;password&quot;:&quot;password123&quot;,&quot;admin&quot;:true,&quot;location&quot;:&quot;Ireland&quot;,&quot;age&quot;:20}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals/59fc6c4cb00a86c43a8e54f8" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;Luke Halley&quot;,&quot;username&quot;:&quot;lukehalley123&quot;,&quot;password&quot;:&quot;password123&quot;,&quot;admin&quot;:true,&quot;location&quot;:&quot;Ireland&quot;,&quot;age&quot;:20}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals/59fc6c4cb00a86c43a8e54f8/purchases" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;Luke Halley&quot;,&quot;username&quot;:&quot;lukehalley123&quot;,&quot;password&quot;:&quot;password123&quot;,&quot;admin&quot;:true,&quot;location&quot;:&quot;Ireland&quot;,&quot;age&quot;:20}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals/59fc6c4cb00a86c43a8e54f8/purchases" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;Luke Halley&quot;,&quot;username&quot;:&quot;lukehalley123&quot;,&quot;password&quot;:&quot;password123&quot;,&quot;admin&quot;:true,&quot;location&quot;:&quot;Ireland&quot;,&quot;age&quot;:20}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/instrumentals/59fc6c4cb00a86c43a8e54f8" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;name&quot;:&quot;Luke Halley&quot;,&quot;username&quot;:&quot;lukehalley123&quot;,&quot;password&quot;:&quot;password123&quot;,&quot;admin&quot;:true,&quot;location&quot;:&quot;Ireland&quot;,&quot;age&quot;:20}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://localhost:3000" />
           <option name="urlPath" value="$PROJECT_DIR$/../.." />
@@ -739,807 +1503,6 @@
           </option>
           <option name="parametersEnabled" value="true" />
           <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Synth&quot;,&quot;instrumenttype&quot;:&quot;Electronic&quot;,&quot;instrumentprice&quot;:5000}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/59fc3b20d2aa67e618b9ab85/purchases" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Synth&quot;,&quot;instrumenttype&quot;:&quot;Electronic&quot;,&quot;instrumentprice&quot;:5000}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/59fc3b20d2aa67e618b9ab85" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Synth&quot;,&quot;instrumenttype&quot;:&quot;Electronic&quot;,&quot;instrumentprice&quot;:5000}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="PUT" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/59fc3b20d2aa67e618b9ab85" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Synth&quot;,&quot;instrumenttype&quot;:&quot;Electronic&quot;,&quot;instrumentprice&quot;:5000}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Synth&quot;,&quot;instrumenttype&quot;:&quot;Electronic&quot;,&quot;instrumentprice&quot;:5000}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Synth&quot;,&quot;instrumenttype&quot;:&quot;Electronic&quot;,&quot;instrumentprice&quot;:5000}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Drums&quot;,&quot;instrumenttype&quot;:&quot;Percussion&quot;,&quot;instrumentprice&quot;:500,&quot;purchases&quot;:1} " />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Violin&quot;,&quot;instrumenttype&quot;:&quot;String&quot;,&quot;instrumentprice&quot;:1000,&quot;purchases&quot;:0}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Drum&quot;,&quot;instrumenttype&quot;:&quot;Percussion&quot;,&quot;instrumentprice&quot;:458,&quot;purchases&quot;:11} " />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Drum&quot;,&quot;instrumenttype&quot;:&quot;Percussion&quot;,&quot;instrumentprice&quot;:458,&quot;purchases&quot;:11} {&quot;instrumentname&quot;:&quot;Piano&quot;,&quot;instrumenttype&quot;:&quot;Percussion&quot;,&quot;instrumentprice&quot;:250,&quot;purchases&quot;:3} {&quot;instrumentname&quot;:&quot;Violin&quot;,&quot;instrumenttype&quot;:&quot;String&quot;,&quot;instrumentprice&quot;:1000,&quot;purchases&quot;:0} {&quot;instrumentname&quot;:&quot;Drums&quot;,&quot;instrumenttype&quot;:&quot;Percussion&quot;,&quot;instrumentprice&quot;:500,&quot;purchases&quot;:1} {&quot;instrumentname&quot;:&quot;Synth&quot;,&quot;instrumenttype&quot;:&quot;Electronic&quot;,&quot;instrumentprice&quot;:5000}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentprice&quot;:999,&quot;instrumenttype&quot;:&quot;Drums&quot;,&quot;instrumentname&quot;:&quot;Baby&quot;,&quot;purchases&quot;:23}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="DELETE" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentprice&quot;:999,&quot;instrumenttype&quot;:&quot;Drums&quot;,&quot;instrumentname&quot;:&quot;Baby&quot;,&quot;purchases&quot;:23}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="DELETE" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/59fc352377393e40148ef272" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentprice&quot;:999,&quot;instrumenttype&quot;:&quot;Drums&quot;,&quot;instrumentname&quot;:&quot;Baby&quot;,&quot;purchases&quot;:23}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="PUT" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/59fc352377393e40148ef272/purchases" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentprice&quot;:999,&quot;instrumenttype&quot;:&quot;Drums&quot;,&quot;instrumentname&quot;:&quot;Baby&quot;,&quot;purchases&quot;:23}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;instrumentprice&quot;:999,&quot;instrumenttype&quot;:&quot;Drums&quot;,&quot;instrumentname&quot;:&quot;Baby&quot;,&quot;purchases&quot;:23}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/59fc352377393e40148ef272" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;LUKE&quot;,&quot;instrumenttype&quot;:&quot;Metal&quot;,&quot;instrumentprice&quot;:252343,&quot;purchases&quot;:111}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;LUKE&quot;,&quot;instrumenttype&quot;:&quot;Metal&quot;,&quot;instrumentprice&quot;:252343,&quot;purchases&quot;:111}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="DELETE" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;LUKE&quot;,&quot;instrumenttype&quot;:&quot;Metal&quot;,&quot;instrumentprice&quot;:252343,&quot;purchases&quot;:111}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;LUKE&quot;,&quot;instrumenttype&quot;:&quot;Metal&quot;,&quot;instrumentprice&quot;:252343,&quot;purchases&quot;:111}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;LUKE&quot;,&quot;instrumenttype&quot;:&quot;Metal&quot;,&quot;instrumentprice&quot;:252343,&quot;purchases&quot;:111}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/59fc3472f7b541e313139982" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;LUKE&quot;,&quot;instrumenttype&quot;:&quot;Metal&quot;,&quot;instrumentprice&quot;:252343,&quot;purchases&quot;:111}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Jimmy&quot;,&quot;instrumenttype&quot;:&quot;Metal&quot;,&quot;instrumentprice&quot;:34525,&quot;purchases&quot;:111}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Jimmy&quot;,&quot;instrumenttype&quot;:&quot;Metal&quot;,&quot;instrumentprice&quot;:34525,&quot;purchases&quot;:111}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="PUT" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Jimmy&quot;,&quot;instrumenttype&quot;:&quot;Metal&quot;,&quot;instrumentprice&quot;:34525,&quot;purchases&quot;:111}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="PUT" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Jimmy&quot;,&quot;instrumenttype&quot;:&quot;Metal&quot;,&quot;instrumentprice&quot;:5000,&quot;purchases&quot;:111}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="DELETE" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/59fc33a1b8de2f0113cde529" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Jimmy&quot;,&quot;instrumenttype&quot;:&quot;Metal&quot;,&quot;instrumentprice&quot;:5000,&quot;purchases&quot;:111}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Jimmy&quot;,&quot;instrumenttype&quot;:&quot;Metal&quot;,&quot;instrumentprice&quot;:5000,&quot;purchases&quot;:111}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Jimmy&quot;,&quot;instrumenttype&quot;:&quot;Metal&quot;,&quot;instrumentprice&quot;:5000,&quot;purchases&quot;:111}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="PUT" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Jimmy&quot;,&quot;instrumenttype&quot;:&quot;Metal&quot;,&quot;instrumentprice&quot;:5000,&quot;purchases&quot;:111}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="DELETE" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Jimmy&quot;,&quot;instrumenttype&quot;:&quot;Metal&quot;,&quot;instrumentprice&quot;:5000,&quot;purchases&quot;:111}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/59fc31929238d3d210da4625" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Jimmy&quot;,&quot;instrumenttype&quot;:&quot;Metal&quot;,&quot;instrumentprice&quot;:5000,&quot;purchases&quot;:111}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="DELETE" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/59fc31929238d3d210da4625" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Jimmy&quot;,&quot;instrumenttype&quot;:&quot;Metal&quot;,&quot;instrumentprice&quot;:5000,&quot;purchases&quot;:111}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/instruments/59fc31929238d3d210da4625" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;instrumentname&quot;:&quot;Jimmy&quot;,&quot;instrumenttype&quot;:&quot;Metal&quot;,&quot;instrumentprice&quot;:5000,&quot;purchases&quot;:999}" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
       </list>
@@ -1607,12 +1570,12 @@
       <workItem from="1508920391910" duration="21000" />
       <workItem from="1509699597904" duration="1243000" />
       <workItem from="1509701091252" duration="220000" />
-      <workItem from="1509701608361" duration="8779000" />
+      <workItem from="1509701608361" duration="14065000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46854000" />
+    <option name="totallyTimeSpent" value="52140000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1624,18 +1587,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1003" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16385669" sideWeight="0.75555557" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09747102" sideWeight="0.75555557" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287234" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32610938" sideWeight="0.45416227" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37977296" sideWeight="0.5126449" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32610938" sideWeight="0.5289779" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37931034" sideWeight="0.7978817" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3632184" sideWeight="0.5233892" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16395418" sideWeight="0.5063492" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37977296" sideWeight="0.4873551" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37931034" sideWeight="0.20211826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16395418" sideWeight="0.24444444" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1666,10 +1629,12 @@
           <folding>
             <element signature="e#272#317#0" expanded="false" />
             <element signature="e#349#394#0" expanded="false" />
+            <element signature="e#492#695#0" expanded="false" />
             <element signature="e#789#1065#0" expanded="false" />
-            <element signature="e#1933#2354#0" expanded="false" />
-            <element signature="e#2455#2635#0" expanded="false" />
-            <element signature="e#2734#2914#0" expanded="false" />
+            <element signature="e#1166#1825#0" expanded="false" />
+            <element signature="e#1933#2360#0" expanded="false" />
+            <element signature="e#3006#3186#0" expanded="false" />
+            <element signature="e#3285#3465#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1721,10 +1686,12 @@
           <folding>
             <element signature="e#272#317#0" expanded="false" />
             <element signature="e#349#394#0" expanded="false" />
+            <element signature="e#492#695#0" expanded="false" />
             <element signature="e#789#1065#0" expanded="false" />
-            <element signature="e#1933#2354#0" expanded="false" />
-            <element signature="e#2455#2635#0" expanded="false" />
-            <element signature="e#2734#2914#0" expanded="false" />
+            <element signature="e#1166#1825#0" expanded="false" />
+            <element signature="e#1933#2360#0" expanded="false" />
+            <element signature="e#3006#3186#0" expanded="false" />
+            <element signature="e#3285#3465#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1760,10 +1727,12 @@
           <folding>
             <element signature="e#272#317#0" expanded="false" />
             <element signature="e#349#394#0" expanded="false" />
+            <element signature="e#492#695#0" expanded="false" />
             <element signature="e#789#1065#0" expanded="false" />
-            <element signature="e#1933#2354#0" expanded="false" />
-            <element signature="e#2455#2635#0" expanded="false" />
-            <element signature="e#2734#2914#0" expanded="false" />
+            <element signature="e#1166#1825#0" expanded="false" />
+            <element signature="e#1933#2360#0" expanded="false" />
+            <element signature="e#3006#3186#0" expanded="false" />
+            <element signature="e#3285#3465#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1799,10 +1768,12 @@
           <folding>
             <element signature="e#272#317#0" expanded="false" />
             <element signature="e#349#394#0" expanded="false" />
+            <element signature="e#492#695#0" expanded="false" />
             <element signature="e#789#1065#0" expanded="false" />
-            <element signature="e#1933#2354#0" expanded="false" />
-            <element signature="e#2455#2635#0" expanded="false" />
-            <element signature="e#2734#2914#0" expanded="false" />
+            <element signature="e#1166#1825#0" expanded="false" />
+            <element signature="e#1933#2360#0" expanded="false" />
+            <element signature="e#3006#3186#0" expanded="false" />
+            <element signature="e#3285#3465#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1822,10 +1793,12 @@
           <folding>
             <element signature="e#272#317#0" expanded="false" />
             <element signature="e#349#394#0" expanded="false" />
+            <element signature="e#492#695#0" expanded="false" />
             <element signature="e#789#1065#0" expanded="false" />
-            <element signature="e#1933#2354#0" expanded="false" />
-            <element signature="e#2455#2635#0" expanded="false" />
-            <element signature="e#2734#2914#0" expanded="false" />
+            <element signature="e#1166#1825#0" expanded="false" />
+            <element signature="e#1933#2360#0" expanded="false" />
+            <element signature="e#3006#3186#0" expanded="false" />
+            <element signature="e#3285#3465#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1861,10 +1834,12 @@
           <folding>
             <element signature="e#272#317#0" expanded="false" />
             <element signature="e#349#394#0" expanded="false" />
+            <element signature="e#492#695#0" expanded="false" />
             <element signature="e#789#1065#0" expanded="false" />
-            <element signature="e#1933#2354#0" expanded="false" />
-            <element signature="e#2455#2635#0" expanded="false" />
-            <element signature="e#2734#2914#0" expanded="false" />
+            <element signature="e#1166#1825#0" expanded="false" />
+            <element signature="e#1933#2360#0" expanded="false" />
+            <element signature="e#3006#3186#0" expanded="false" />
+            <element signature="e#3285#3465#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1884,10 +1859,12 @@
           <folding>
             <element signature="e#272#317#0" expanded="false" />
             <element signature="e#349#394#0" expanded="false" />
+            <element signature="e#492#695#0" expanded="false" />
             <element signature="e#789#1065#0" expanded="false" />
-            <element signature="e#1933#2354#0" expanded="false" />
-            <element signature="e#2455#2635#0" expanded="false" />
-            <element signature="e#2734#2914#0" expanded="false" />
+            <element signature="e#1166#1825#0" expanded="false" />
+            <element signature="e#1933#2360#0" expanded="false" />
+            <element signature="e#3006#3186#0" expanded="false" />
+            <element signature="e#3285#3465#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1923,10 +1900,12 @@
           <folding>
             <element signature="e#272#317#0" expanded="false" />
             <element signature="e#349#394#0" expanded="false" />
+            <element signature="e#492#695#0" expanded="false" />
             <element signature="e#789#1065#0" expanded="false" />
-            <element signature="e#1933#2354#0" expanded="false" />
-            <element signature="e#2455#2635#0" expanded="false" />
-            <element signature="e#2734#2914#0" expanded="false" />
+            <element signature="e#1166#1825#0" expanded="false" />
+            <element signature="e#1933#2360#0" expanded="false" />
+            <element signature="e#3006#3186#0" expanded="false" />
+            <element signature="e#3285#3465#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1946,10 +1925,12 @@
           <folding>
             <element signature="e#272#317#0" expanded="false" />
             <element signature="e#349#394#0" expanded="false" />
+            <element signature="e#492#695#0" expanded="false" />
             <element signature="e#789#1065#0" expanded="false" />
-            <element signature="e#1933#2354#0" expanded="false" />
-            <element signature="e#2455#2635#0" expanded="false" />
-            <element signature="e#2734#2914#0" expanded="false" />
+            <element signature="e#1166#1825#0" expanded="false" />
+            <element signature="e#1933#2360#0" expanded="false" />
+            <element signature="e#3006#3186#0" expanded="false" />
+            <element signature="e#3285#3465#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1985,10 +1966,12 @@
           <folding>
             <element signature="e#272#317#0" expanded="false" />
             <element signature="e#349#394#0" expanded="false" />
+            <element signature="e#492#695#0" expanded="false" />
             <element signature="e#789#1065#0" expanded="false" />
-            <element signature="e#1933#2354#0" expanded="false" />
-            <element signature="e#2455#2635#0" expanded="false" />
-            <element signature="e#2734#2914#0" expanded="false" />
+            <element signature="e#1166#1825#0" expanded="false" />
+            <element signature="e#1933#2360#0" expanded="false" />
+            <element signature="e#3006#3186#0" expanded="false" />
+            <element signature="e#3285#3465#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2004,13 +1987,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-760">
           <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -2045,22 +2021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/instrumentalModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="68" lean-forward="false" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2074,21 +2034,6 @@
             <element signature="e#1061#1582#0" expanded="false" />
             <element signature="e#1667#1846#0" expanded="false" />
             <element signature="e#1929#2101#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/instrumentals.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="59" column="47" lean-forward="false" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
-          <folding>
-            <element signature="e#272#317#0" expanded="false" />
-            <element signature="e#349#394#0" expanded="false" />
-            <element signature="e#789#1065#0" expanded="false" />
-            <element signature="e#1933#2354#0" expanded="false" />
-            <element signature="e#2455#2635#0" expanded="false" />
-            <element signature="e#2734#2914#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2109,11 +2054,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/userModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="120" />
+        <state relative-caret-position="165">
+          <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/instrumentalModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/instrumentals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="100" column="45" lean-forward="true" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
+          <folding>
+            <element signature="e#272#317#0" expanded="false" />
+            <element signature="e#349#394#0" expanded="false" />
+            <element signature="e#492#695#0" expanded="false" />
+            <element signature="e#789#1065#0" expanded="false" />
+            <element signature="e#1166#1825#0" expanded="false" />
+            <element signature="e#1933#2360#0" expanded="false" />
+            <element signature="e#3006#3186#0" expanded="false" />
+            <element signature="e#3285#3465#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
