@@ -11,8 +11,10 @@
     "debug": "~2.2.0",
     "ejs": "~2.3.3",
     "express": "~4.13.1",
+    "express-session": "^1.15.6",
     "morgan": "~1.6.1",
-    "semantic-ui": "^2.2.13",
+    "passport": "~0.2.0",
+    "passport-local": "~1.0.0",
     "serve-favicon": "~2.3.0"
   }
 }
