@@ -56,6 +56,7 @@ router.addOneUser = function(req, res) {
     user.save(function(err) {
         if (err)
             res.send(err);
+
         res.json({ message: 'User Added!', data: user });
     });
 }
