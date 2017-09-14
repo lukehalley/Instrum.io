@@ -8,7 +8,6 @@ var routes = require('./routes/index');
 var instrumentals = require('./routes/instrumentals.js');
 var users = require('./routes/users.js');
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/instrumdb');
 
 var app = express();
 
@@ -24,13 +23,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
-
-// Configuring Passport
-var passport = require('passport');
-var expressSession = require('express-session');
-app.use(expressSession({secret: 'mySecretKey'}));
-app.use(passport.initialize());
-app.use(passport.session());
 
 // Routes for instrumentals
 app.get('/instrumentals', instrumentals.findAllInstrumentals);
