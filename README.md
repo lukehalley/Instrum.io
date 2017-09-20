@@ -1,9 +1,10 @@
-![Logo](https://raw.githubusercontent.com/lukehalley/Instrum.io/master/data/logo.png)
+<p align="center"> 
+![Logo](https://raw.githubusercontent.com/lukehalley/Instrum.io/master/data/logo_small.png)
 
-### Luke Halley - 2001820
-• Persistence approach adopted i.e. what’s persisted and
-where.
-• Git approach adopted and link to git project / access.
+### Luke Halley
+### Student Number: 20071820
+### Github Respository: [https://github.com/lukehalley/Instrum.io](Repo Link)
+
 • DX approach adopted.
 • References
 
@@ -32,3 +33,6 @@ Instrum.io is a web application which has two **models**:
 
 ## Persistence
 **MongoDB** & **Mongoose** was used for persistance. **MongoDB** is a free and open-source cross-platform document-oriented database program. **Mongoose** is a **MongoDB** object modeling tool designed to work in an asynchronous environment. All information about all Instruments and Users were stored in the database.
+
+## Version Control
+For version control, Github was used. I broke the development of the application into **stories** and commited to my repository each time a story was completed.
