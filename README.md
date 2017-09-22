@@ -36,3 +36,13 @@ Instrum.io is a web application which has two **models**:
 
 ## Version Control
 For version control, Github was used. I broke the development of the application into **stories** and commited to my repository each time a story was completed.
+
+## Developer Experience
+I ensured a high standard of developer experience by adding comments into my project's files which explains the functions of the code and its use. I also ensured all commits to GitHub were informitive and easy to understand.
+
+## References
+Skeleton code was created by following David Drohans ["Web App Development 2"](https://ddrohan.github.io/wit-wad/) tutorials).
+
+Design of the website was created using [Bootstrap](http://getbootstrap.com/), the free and open-source front-end web framework for designing websites and web applications.
+
+NPM packages used: [MongoDB](https://www.npmjs.com/package/mongodb), [Mongoose](https://www.npmjs.com/package/mongoose) and [Node](https://www.npmjs.com/package/node)
