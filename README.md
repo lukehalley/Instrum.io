@@ -1,4 +1,4 @@
-<p align="center"> 
+
 ![Logo](https://raw.githubusercontent.com/lukehalley/Instrum.io/master/data/logo_small.png)
 
 ### Luke Halley
