@@ -3,7 +3,7 @@
 
 ### Luke Halley
 ### Student Number: 20071820
-### Github Respository: [https://github.com/lukehalley/Instrum.io](Repo Link)
+### [Github Respository](https://github.com/lukehalley/Instrum.io)
 
 • DX approach adopted.
 • References
