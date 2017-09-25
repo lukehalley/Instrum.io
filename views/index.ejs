@@ -1,51 +1,40 @@
-<!--List of the routes for the instrumentals and users-->
-<!DOCTYPE html>
-<html lang="en">
-<link rel="icon"
-	  type="image/png"
-	  href="https://raw.githubusercontent.com/lukehalley/Instrum.io/master/public/favicon.ico">
+<html ng-app="InstrumApp" >
+
 <head>
-	<% include head %>
+
+    <link rel="icon"
+          type="image/png"
+          href="https://raw.githubusercontent.com/lukehalley/Instrum.io/master/public/favicon.ico">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular-route.js"></script>
+    <script src="/javascripts/angularApp.js"></script>
+    <script src="/javascripts/controllers/instrumentalcontroller.js"></script>
+    <script src="/javascripts/controllers/usercontroller.js"></script>
+
+    <!--Heading for the homepage along with the Bootstrap styling css file-->
+    <meta charset="UTF-8">
+    <title>Instrum.io</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <style>
+        body 	{ padding-top:50px; }
+    </style>
+
 </head>
-<body class="container">
 
-	<header>
-		<% include header %>
-	</header>
+<body ng-controller="instrumentalController">
 
-	<main>
+    <nav class="navbar navbar-default" role="navigation">
+        <h2 class="text-center">Instrum.io</h2>
+    </nav>
 
-		<!--<div class="well well-lg">-->
-			<h2>Instrumental Routes:</h2>
-			<p>
-			<ul class="list-group">
-				<li class="list-group-item list-group-item-success">POST / - instruments</b> - create a new instrumental with provided metadata</li>
-				<li class="list-group-item list-group-item-info">GET / - instrumental - returns all current instrumentals stored in the database with their associated metadata</li>
-				<li class="list-group-item list-group-item-info">GET / - instruments/:id</b> - return an individual instrumental with associated metadata</li>
-				<li class="list-group-item list-group-item-warning">PUT / - instruments/:id</b> - updates an individual instrumental with provided metadata</li>
-				<li class="list-group-item list-group-item-warning">PUT / - instruments/:id/purchases</b> - purchases an instrument, incrementing the "purchases" field</li>
-				<li class="list-group-item list-group-item-danger">DELETE / - instruments/</b> - deletes all current instrumentals stored in the database</li>
-				<li class="list-group-item list-group-item-danger">DELETE / - instruments/:id</b> - delete an individual instrumental by ID</li>
-			</ul>
-			</p>
-		<!--</div>-->
-		<!--<div class="well well-lg">-->
-			<h2>User Routes:</h2>
-			<p>
-			<li class="list-group-item list-group-item-success">POST / users - create a new user with provided metadata</li>
-			<li class="list-group-item list-group-item-info">GET / user - returns all current users stored in the database with their associated metadata</li>
-			<li class="list-group-item list-group-item-info">GET / users/:id - return an individual user with associated metadata</li>
-			<li class="list-group-item list-group-item-warning">PUT / users/:id - updates an individual user with provided metadata</li>
-			<li class="list-group-item list-group-item-danger">DELETE / users/ - deletes all current users stored in the database</li>
-			<li class="list-group-item list-group-item-danger">DELETE / users/:id - delete an individual user by ID</li>
-			</p>
-		<!--</div>-->
+    <div id="main">
+        <div ng-view> </div>
+    </div>
 
-	</main>
-
-	<footer>
-		<% include footer %>
-	</footer>
-	
 </body>
+
 </html>
