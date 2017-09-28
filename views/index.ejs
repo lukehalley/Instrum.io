@@ -50,7 +50,7 @@
 
 </head>
 
-<body class="theme-red" ng-controller="instrumentalController">
+<body class="theme-grey" ng-controller="instrumentalController">
 
 <!-- Page Loader -->
 <div class="page-loader-wrapper">
@@ -79,7 +79,7 @@
     <div class="search-icon">
         <i class="material-icons">search</i>
     </div>
-    <input type="text" placeholder="START TYPING...">
+    <input type="text" placeholder="What Type Of Track Are You Looking For?">
     <div class="close-search">
         <i class="material-icons">close</i>
     </div>
@@ -98,6 +98,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <!-- Call Search -->
                 <li><a href="javascript:void(0);" class="js-search" data-close="true"><i class="material-icons">search</i></a></li>
+
                 <!-- #END# Call Search -->
             </ul>
         </div>
@@ -110,24 +111,29 @@
         <!-- User Info -->
         <div class="user-info">
             <div class="image">
-                <img src="/dep/images/user.png" width="48" height="48" alt="User" />
+                <img src="/dep/images/user.jpeg" width="80" height="80" alt="User" />
             </div>
         </div>
         <!-- #User Info -->
         <!-- Menu -->
         <div class="menu">
             <ul class="list">
-                <li class="header">MAIN NAVIGATION</li>
                 <li class="active">
                     <a href="index.html">
-                        <i class="material-icons">home</i>
-                        <span>Home</span>
+                        <i class="material-icons">queue_music</i>
+                        <span>My Feed</span>
                     </a>
                 </li>
                 <li>
                     <a href="pages/typography.html">
-                        <i class="material-icons">text_fields</i>
-                        <span>Typography</span>
+                        <i class="material-icons">hearing</i>
+                        <span>Genre</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="pages/typography.html">
+                        <i class="material-icons">show_chart</i>
+                        <span>Charts</span>
                     </a>
                 </li>
             </ul>
