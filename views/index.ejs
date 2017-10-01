@@ -17,7 +17,7 @@
     <title>Instrum.io</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -50,7 +50,7 @@
 
 </head>
 
-<body class="theme-grey" ng-controller="instrumentalController">
+<body class="theme-grey" ng-controller="feedController">
 
 <!-- Page Loader -->
 <div class="page-loader-wrapper">
@@ -118,10 +118,11 @@
         <!-- Menu -->
         <div class="menu">
             <ul class="list">
+                <li><a class="subheader">Browse Instrumentals</a></li>
                 <li class="active">
                     <a href="index.html">
                         <i class="material-icons">queue_music</i>
-                        <span>My Feed</span>
+                        <span>Feed</span>
                     </a>
                 </li>
                 <li>
@@ -136,6 +137,20 @@
                         <span>Charts</span>
                     </a>
                 </li>
+
+                <li><a class="subheader">Your Instrumentals</a></li>
+                <li class="active">
+                    <a href="index.html">
+                        <i class="material-icons">audiotrack</i>
+                        <span>Uploaded Instrumentals</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="pages/typography.html">
+                        <i class="material-icons">cloud_upload</i>
+                        <span>Upload</span>
+                    </a>
+                </li>
             </ul>
         </div>
         <!-- #Menu -->
@@ -143,6 +158,9 @@
         <div class="legal">
             <b>Luke Halley</b>
         </div>
+        <a class="btn btn-block btn-social btn-twitter">
+            <span class="fa fa-twitter"></span> Sign in with Twitter
+        </a>
         </div>
         <!-- #Footer -->
     </aside>

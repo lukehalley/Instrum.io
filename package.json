@@ -12,6 +12,7 @@
     "ejs": "~2.3.3",
     "express": "~4.13.1",
     "express-session": "^1.15.6",
+    "materialize-social": "^1.0.3",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0"
   }
