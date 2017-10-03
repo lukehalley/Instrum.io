@@ -4,6 +4,11 @@ app.config(function($routeProvider) {
         $routeProvider
 
             // route for the landing page which is the feed
+            .when('/', {
+                templateUrl : 'pages/feed.ejs',
+                controller  : 'feedController'
+            })
+
             .when('/feed', {
                 templateUrl : 'pages/feed.ejs',
                 controller  : 'feedController'

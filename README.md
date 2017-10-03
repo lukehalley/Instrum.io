@@ -28,8 +28,7 @@ Instrum.io is a web application which has two **models**:
 * POST / users - create a new user with provided metadata 
 * GET / user - returns all current users stored in the database with their associated metadata 
 * GET / users/:id - return an individual user with associated metadata 
-* PUT / users/:id - updates an individual user with provided metadata 
-* DELETE / users/ - deletes all current users stored in the database 
+* PUT / users/:id - updates an individual user with provided metadata DELETE / users/ - deletes all current users stored in the database 
 * DELETE / users/:id - delete an individual user by ID
 
 ## Persistence
