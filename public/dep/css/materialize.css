@@ -778,8 +778,8 @@ a {
 }
 .user-list tbody td>img {
   position: relative;
-  max-width: 50%;
-  min-width: 0%;
+  max-width: 100px;
+  min-width: 100px;
   float: left;
   margin-right: 15px;
 }
