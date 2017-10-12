@@ -13,22 +13,23 @@
 						<div class="row">
 							<div class="col-sm-6 col-md-3" ng-repeat="instrumental in instrumentals">
 								<div class="thumbnail" >
-									<img src="../dep/images/art/nav.jpg">
+									<img src="../dep/images/art/uzi.jpg">
 									<div class="caption">
 										<h1>{{instrumental.title}}</h1>
 										<h3>Tags: {{instrumental.tags}}</h3>
 										<b>Produced By: </b> {{instrumental.owner}}<br />
 										<b>Genre: </b> {{instrumental.genre}}<br />
 										<b>BPM: </b> {{instrumental.bpm}}<br />
+										<b>Purchases: </b> {{instrumental.purchases}}<br />
 										<b>Upload Date: </b> {{instrumental.uploadDateISO}}<br />
 										<h3> </h3>
 										<button type="button" class="btn bg-red waves-effect">
 											<i href="javascript:void(0);" class="material-icons">thumb_up</i>
-											<span>Like</span>
+											<span>Like:  {{instrumental.likes}}</span>
 										</button>
 										<button type="button" class="btn bg-grey waves-effect">
 											<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>
-											<span>Purchase</span>
+											<span>Purchase:  €{{instrumental.price}}</span>
 										</button>
 
 									</div>
