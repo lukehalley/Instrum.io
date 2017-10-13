@@ -28,7 +28,7 @@ app.use('/', routes);
 app.get('/instrumentals', instrumentals.sortByNewest);
 app.get('/instrumentals/:id', instrumentals.findOneInstrumental);
 app.post('/instrumentals', instrumentals.addOneInstrumental);
-app.put('/instrumentals/:id/purchases', instrumentals.purchaseInstrumental);
+app.put('/instrumentals/:id/likes', instrumentals.likeInstrumental);
 app.put('/instrumentals/:id/', instrumentals.updateInstrumental);
 app.delete('/instrumentals/:id', instrumentals.deleteOneInstrumental);
 app.delete('/instrumentals', instrumentals.deleteAllInstrumentals);
@@ -69,6 +69,5 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
-
 
 module.exports = app;

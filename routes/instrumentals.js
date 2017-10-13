@@ -84,17 +84,17 @@ router.addOneInstrumental = function(req, res) {
 };
 
 // PUT - Adds one purchase to an instrument given its ID
-router.purchaseInstrumental = function(req, res) {
+router.likeInstrumental = function(req, res) {
     model.findById(req.params.id, function(err,instrumental) {
         if (err)
             res.send(err);
         else {
-            instrumental.purchases += 1;
+            instrumental.likes += 1;
             instrumental.save(function (err) {
                 if (err)
                     res.send(err);
                 else
-                    res.json({ message: 'Instrumental Has Been Purchased!', data: instrumental });
+                    res.json({ message: 'Instrumental Has Been Liked!', data: instrumental });
             });
         }
     });
