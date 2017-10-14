@@ -15,6 +15,16 @@ app.controller('feedController', ['$scope', '$http' ,function($scope, $http) {
             });
     };
 
-}
-]);
+    $scope.likeInstrumental = function (id) {
+        $http.put('/instrumentals/' + id + '/likes')
+            .success(function (data) {
+                console.log(data);
+                findInstrumentals();
+            })
+            .error(function (data) {
+                console.log('Error: ' + data);
+            });
+    };
+
+}]);
 
