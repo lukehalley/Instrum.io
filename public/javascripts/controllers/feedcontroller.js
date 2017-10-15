@@ -26,5 +26,16 @@ app.controller('feedController', ['$scope', '$http' ,function($scope, $http) {
             });
     };
 
+    $scope.purchaseInstrumental = function (id) {
+        $http.put('/instrumentals/' + id + '/purchases')
+            .success(function (data) {
+                console.log(data);
+                findInstrumentals();
+            })
+            .error(function (data) {
+                console.log('Error: ' + data);
+            });
+    };
+
 }]);
 
