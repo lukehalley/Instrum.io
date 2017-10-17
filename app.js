@@ -6,8 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
-var donations = require('./routes/donations.js');
+var instruments = require('./routes/instruments.js');
 
 var app = express();
 
@@ -24,14 +23,13 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.use('/users', users);
 
 //Our Custom Routes
-app.get('/donations', donations.findAll);
-app.get('/donations/:id', donations.findOne);
-app.post('/donations', donations.addDonation);
-app.put('/donations/:id/votes', donations.incrementUpvotes);
-app.delete('/donations/:id', donations.deleteDonation);
+app.get('/instruments', instruments.findAll);
+app.get('/instruments/:id', instruments.findOne);
+app.post('/instruments', instruments.addInstrument);
+app.put('/instruments/:id/votes', instruments.incrementUpvotes);
+app.delete('/instruments/:id', instruments.deleteInstrument);
 
 
 

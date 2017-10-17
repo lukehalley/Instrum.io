@@ -4,7 +4,7 @@ var router = express.Router();
 var mongoose = require('mongoose');
 
 
-mongoose.connect('mongodb://localhost:27017/instrumentdb');
+mongoose.connect('mongodb://localhost:27017/instrumentsdb');
 
 var db = mongoose.connection;
 
