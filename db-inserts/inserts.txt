@@ -1,0 +1,4 @@
+db.instrumentsdb.insert({"instrumentname":"Piano","instrumenttype":"Percussion","instrumentprice":250,"purchases":3})
+db.instrumentsdb.insert({"instrumentname":"Drums","instrumenttype":"Percussion","instrumentprice":500,"purchases":1})
+db.instrumentsdb.insert({"instrumentname":"Violin","instrumenttype":"String","instrumentprice":1000,"purchases":0})
+db.instrumentsdb.insert({"instrumentname":"Synth","instrumenttype":"Electronic","instrumentprice":5000})
