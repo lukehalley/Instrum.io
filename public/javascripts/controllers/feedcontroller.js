@@ -2,10 +2,10 @@ var app = angular.module('InstrumApp');
 
 app.controller('feedController', ['$scope', '$http' ,function($scope, $http) {
 
-    findInstrumentals();
+    sortByNewest();
 
-    function findInstrumentals() {
-        $http.get('/instrumentals')
+    function sortByNewest() {
+        $http.get('/instrumentals/newest')
             .success(function (data) {
                 $scope.instrumentals = data;
                 console.log(data);
@@ -19,7 +19,7 @@ app.controller('feedController', ['$scope', '$http' ,function($scope, $http) {
         $http.put('/instrumentals/' + id + '/likes')
             .success(function (data) {
                 console.log(data);
-                findInstrumentals();
+                sortByNewest();
             })
             .error(function (data) {
                 console.log('Error: ' + data);
@@ -30,7 +30,7 @@ app.controller('feedController', ['$scope', '$http' ,function($scope, $http) {
         $http.put('/instrumentals/' + id + '/purchases')
             .success(function (data) {
                 console.log(data);
-                findInstrumentals();
+                sortByNewest();
             })
             .error(function (data) {
                 console.log('Error: ' + data);

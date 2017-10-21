@@ -1,7 +1,9 @@
 var app = angular.module('InstrumApp');
 
 app.controller('chartsController', ['$scope', function($scope) {
-    // create a message to display in our view
+
+    findInstrumentals();
+
     function findInstrumentals() {
         $http.get('/instrumentals')
             .success(function (data) {

@@ -25,17 +25,21 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 
 // Routes for instrumentals
-app.get('/instrumentals', instrumentals.sortByNewest);
-app.get('/instrumentals', instrumentals.sortByPurchases);
+app.get('/instrumentals', instrumentals.findAllInstrumentals);
+app.get('/instrumentals/newest', instrumentals.sortByNewest);
+app.get('/instrumentals/mostpurchased', instrumentals.sortByPurchases);
 app.get('/instrumentals/:id', instrumentals.findOneInstrumental);
+
 app.post('/instrumentals', instrumentals.addOneInstrumental);
+
 app.put('/instrumentals/:id/likes', instrumentals.likeInstrumental);
 app.put('/instrumentals/:id/purchases', instrumentals.purchaseInstrumental);
 app.put('/instrumentals/:id/', instrumentals.updateInstrumental);
+
 app.delete('/instrumentals/:id', instrumentals.deleteOneInstrumental);
 app.delete('/instrumentals', instrumentals.deleteAllInstrumentals);
 
-// Routes for instrumentals
+// Routes for users
 app.get('/users', users.findAllUsers);
 app.get('/users/:id', users.findOneUser);
 app.post('/users', users.addOneUser);
