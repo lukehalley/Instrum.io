@@ -19,9 +19,14 @@ app.config(function($routeProvider) {
                 controller  : 'genreController'
             })
 
-            .when('/charts', {
-                templateUrl : 'pages/charts.ejs',
-                controller  : 'chartController'
+            .when('/mostliked', {
+                templateUrl : 'pages/likes.ejs',
+                controller  : 'likesController'
+            })
+
+            .when('/mostpurchased', {
+                templateUrl : 'pages/purchases.ejs',
+                controller  : 'purchasesController'
             })
 
             .when('/uploaded', {
