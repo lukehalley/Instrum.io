@@ -9,7 +9,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular-route.js"></script>
     <script src="/javascripts/angularApp.js"></script>
-    <script src="/javascripts/controllers/feedcontroller.js"></script>
+    <script src="/javascripts/controllers/newestcontroller.js"></script>
     <script src="/javascripts/controllers/genrecontroller.js"></script>
     <script src="/javascripts/controllers/likescontroller.js"></script>
     <script src="/javascripts/controllers/purchasescontroller.js"></script>
@@ -56,7 +56,7 @@
 
 </head>
 
-<body class="theme-grey" ng-controller="feedController">
+<body class="theme-grey" ng-controller="newestController">
 
 <!-- Page Loader -->
 <div class="page-loader-wrapper">
@@ -85,7 +85,11 @@
     <div class="search-icon">
         <i class="material-icons">search</i>
     </div>
-    <input type="text" placeholder="What Type Of Track Are You Looking For?">
+
+    <form action=""
+        <input type="text" placeholder="What Type Of Track Are You Looking For?">
+
+
     <div class="close-search">
         <i class="material-icons">close</i>
     </div>
@@ -98,7 +102,7 @@
         <div class="navbar-header">
             <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
             <a href="javascript:void(0);" class="bars"></a>
-            <a class="navbar-brand" href="#feed">Instrum.io</a>
+            <a class="navbar-brand" href="#newest">Instrum.io</a>
         </div>
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -124,7 +128,7 @@
             <ul class="list">
                 <li><a class="subheader">Browse Instrumentals</a></li>
                 <li class="active">
-                    <a href="#feed">
+                    <a href="#newest">
                         <i class="material-icons">watch_later</i>
                         <span>Newest</span>
                     </a>
