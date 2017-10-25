@@ -4,7 +4,6 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var instruments = require('./routes/instruments.js');
@@ -22,16 +21,16 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-
 app.use('/', routes);
 app.use('/users', users);
 
 //Our Custom Routes
-app.get('/instruments', instruments.findAll);
-app.get('/instruments/:id', instruments.findOne);
-app.post('/instruments', instruments.addInstrument);
-app.put('/instruments/:id/votes', instruments.incrementUpvotes);
-app.delete('/instruments/:id', instruments.deleteInstrument);
+app.get('/instruments', instruments.findAllInstruments);
+app.get('/instruments/:id', instruments.findOneInstrument);
+app.post('/instruments', instruments.addOneInstrument);
+app.put('/instruments/:id', instruments.updateOneInstrument);
+app.delete('/instruments/:id', instruments.deleteOneInstrument);
+app.delete('/instruments', instruments.deleteAllInstruments);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
