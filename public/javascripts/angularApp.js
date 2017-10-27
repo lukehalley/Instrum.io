@@ -44,6 +44,7 @@ app.config(function($routeProvider) {
                 controller  : 'uploadController'
             });
 
+    //    POSSIBLY HAVE TO ADD GOOGLE SIG IN COTROLLER HERE
     });
 
 

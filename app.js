@@ -43,7 +43,9 @@ app.delete('/instrumentals', instrumentals.deleteAllInstrumentals);
 // Routes for users
 app.get('/users', users.findAllUsers);
 app.get('/users/:id', users.findOneUser);
+
 app.post('/users', users.addOneUser);
+
 app.put('/users/:id/', users.updateUser);
 app.delete('/users/:id', users.deleteOneUser);
 app.delete('/users', users.deleteAllUsers);
@@ -55,7 +57,12 @@ app.use(function(req, res, next) {
   next(err);
 });
 
-// error handlers
+function onLoadFunction() {
+    gapi.client.setApiKey('AIzaSyC5YxofeRXCbLqjrVdv7H3ve8_ahEUSPpY');
+    gapi.client.load('plus', 'vl', function () {
+
+    })
+}
 
 // development error handler will print stacktrace
 if (app.get('env') === 'development') {
