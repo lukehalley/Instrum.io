@@ -10,5 +10,3 @@ var userSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model('User', userSchema);
-
-// {"name":"Luke Halley","username":"lukehalley123","password":"password123","admin":true,"location":"Ireland","age":20}

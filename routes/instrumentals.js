@@ -56,14 +56,12 @@ router.addOneInstrumental = function(req, res) {
     instrumental.save(function(err) {
         if (err)
             res.send(err);
-
         res.json({ message: 'Instrumental Added!', data: instrumental });
     });
 }
 
-// POST - Adds one purchase to an instrument given its ID
-router.incrementPurchases = function(req, res) {
-
+// PUT - Adds one purchase to an instrument given its ID
+router.purchaseInstrumental = function(req, res) {
     model.findById(req.params.id, function(err,instrumental) {
         if (err)
             res.send(err);
@@ -73,9 +71,19 @@ router.incrementPurchases = function(req, res) {
                 if (err)
                     res.send(err);
                 else
-                    res.json({ message: 'model Has Been Purchased!', data: instrumental });
+                    res.json({ message: 'Instrumental Has Been Purchased!', data: instrumental });
             });
         }
+    });
+}
+
+// PUT - Adds one purchase to an instrument given its ID
+router.updateInstrumental = function(req, res) {
+    model.findOneAndUpdate({ "_id": req.params.id }, { "$set": { "title": req.body.title, "owner": req.body.owner, "genre": req.body.genre, "tags": req.body.tags, "price": req.body.price, "bpm": req.body.bpm, "plays": req.body.plays, "purchases": req.body.purchases}}).exec(function(err, instrumental)
+    {
+        if (err)
+            res.send(err);
+        res.json({ message: 'Instrumental Updated!', data: instrumental });
     });
 }
 
