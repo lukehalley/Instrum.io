@@ -37,6 +37,7 @@ app.delete('/instrumentals', instrumentals.deleteAllInstrumentals);
 app.get('/users', users.findAllUsers);
 app.get('/users/:id', users.findOneUser);
 app.post('/users', users.addOneUser);
+app.put('/users/:id/', users.updateUser);
 app.delete('/users/:id', users.deleteOneUser);
 app.delete('/users', users.deleteAllUsers);
 

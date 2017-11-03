@@ -60,6 +60,16 @@ router.addOneUser = function(req, res) {
     });
 }
 
+// PUT - Adds one purchase to an instrument given its ID
+router.updateUser = function(req, res) {
+    model.findOneAndUpdate({ "_id": req.params.id }, { "$set": { "name": req.body.name, "username": req.body.username, "password": req.body.password, "admin": req.body.admin, "location": req.body.location, "age": req.body.age}}).exec(function(err, instrumental)
+    {
+        if (err)
+            res.send(err);
+        res.json({ message: 'User Updated!', data: instrumental });
+    });
+}
+
 // DELETE - Deletes one user given an id
 router.deleteOneUser = function(req, res) {
 
