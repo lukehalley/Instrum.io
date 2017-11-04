@@ -24,7 +24,7 @@ router.findOneUser = function(req, res) {
         else
             res.json(user);
     });
-}
+};
 
 // GET - Finds all users in database
 router.findAllUsers = function(req, res) {
@@ -35,7 +35,7 @@ router.findAllUsers = function(req, res) {
         else
             res.json(users);
     });
-}
+};
 
 // POST - Adds an user given some JSON data
 router.addOneUser = function(req, res) {
@@ -59,7 +59,7 @@ router.addOneUser = function(req, res) {
 
         res.json({ message: 'User Added!', data: user });
     });
-}
+};
 
 // PUT - Adds one purchase to an instrument given its ID
 router.updateUser = function(req, res) {
@@ -69,7 +69,7 @@ router.updateUser = function(req, res) {
             res.send(err);
         res.json({ message: 'User Updated!', data: instrumental });
     });
-}
+};
 
 // DELETE - Deletes one user given an id
 router.deleteOneUser = function(req, res) {
@@ -80,7 +80,7 @@ router.deleteOneUser = function(req, res) {
         else
             res.json({message: 'User Deleted!'});
     });
-}
+};
 
 // DELETE - Deletes all users from db
 router.deleteAllUsers = function(req, res) {
@@ -91,36 +91,6 @@ router.deleteAllUsers = function(req, res) {
         else
             res.json({ message: 'All Users Have Been Deleted!'});
     });
-}
-
-module.exports = function(passport){
-
-    /* GET login page. */
-    router.get('/', function(req, res) {
-        // Display the Login page with any flash message, if any
-        res.render('index', { message: req.flash('message') });
-    });
-
-    /* Handle Login POST */
-    router.post('/login', passport.authenticate('login', {
-        successRedirect: '/home',
-        failureRedirect: '/',
-        failureFlash : true
-    }));
-
-    /* GET Registration Page */
-    router.get('/signup', function(req, res){
-        res.render('register',{message: req.flash('message')});
-    });
-
-    /* Handle Registration POST */
-    router.post('/signup', passport.authenticate('signup', {
-        successRedirect: '/home',
-        failureRedirect: '/signup',
-        failureFlash : true
-    }));
-
-    return router;
-}
+};
 
 module.exports = router;
