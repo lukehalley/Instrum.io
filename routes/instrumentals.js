@@ -4,17 +4,20 @@ var router = express.Router();
 var mongoose = require('mongoose');
 var db = mongoose.connection;
 
+// Connects to the MongoDB server
 mongoose.connect('mongodb://localhost:27017/instrumdb');
 
+// Catches an error if there is a problem connecting to the database, sends the message 'connection error' to the console along with the error (err)
 db.on('error', function (err) {
     console.log('connection error', err);
 });
 
+// If connection to the database is successful, the message 'connected to database' is displayed in the console
 db.once('open', function () {
     console.log('connected to database');
 });
 
-// GET - Finds all instrumentals in database
+// GET - Finds all current instrumentals in database
 router.findAllInstrumentals = function(req, res) {
     // Use the model model to find all instrumental
     model.find(function(err, instrumentals) {
