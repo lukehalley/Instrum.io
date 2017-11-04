@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'SSD 4 - Instrum.io 2.0' });
+  res.render('index', { title: 'Instrum.io' });
 });
 
 module.exports = router;
