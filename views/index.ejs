@@ -1,32 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title><%= title %></title>
-  <link rel='stylesheet' href='/stylesheets/style.css' />
+	<% include head %>
 </head>
-<body>
+<body class="container">
 
-<h1><%= title %></h1>
-  <p>Welcome to <%= title %></p>
+	<header>
+		<% include header %>
+	</header>
 
-<h2>Instrumental Routes: </h2>
-  <p>
-  <li><b>GET /instrumental</b> - returns all current instrumentals stored in the database with their associated metadata</li>
-  <li><b>GET /instruments/:id</b> - return an individual instrumental with associated metadata</li>
-  <li><b>POST /instruments</b> - create a new instrumental with provided metadata</li>
-  <li><b>PUT /instruments/:id</b> - updates an individual instrumental with provided metadata</li>
-  <li><b>PUT /instruments/:id/purchases</b> - purchases an instrument, incrementing the "purchases" field</li>
-  <li><b>DELETE /instruments/</b> - deletes all current instrumentals stored in the database</li>
-  <li><b>DELETE /instruments/:id</b> - delete an individual instrumental by ID</li>
-  </p>
-<h2>User Routes: </h2>
-  <p>
-    <li><b>GET /user</b> - returns all current users stored in the database with their associated metadata</li>
-    <li><b>GET /users/:id</b> - return an individual user with associated metadata</li>
-    <li><b>POST /users</b> - create a new user with provided metadata</li>
-    <li><b>PUT /users/:id</b> - updates an individual user with provided metadata</li>
-    <li><b>DELETE /users/</b> - deletes all current users stored in the database</li>
-    <li><b>DELETE /users/:id</b> - delete an individual user by ID</li>
-  </p>
+	<main>
+
+		<!--<div class="well well-lg">-->
+			<h2>Instrumental Routes:</h2>
+			<p>
+			<ul class="list-group">
+				<li class="list-group-item list-group-item-success">POST / instruments</b> - create a new instrumental with provided metadata</li>
+				<li class="list-group-item list-group-item-info">GET / instrumental - returns all current instrumentals stored in the database with their associated metadata</li>
+				<li class="list-group-item list-group-item-info">GET / instruments/:id</b> - return an individual instrumental with associated metadata</li>
+				<li class="list-group-item list-group-item-warning">PUT / instruments/:id</b> - updates an individual instrumental with provided metadata</li>
+				<li class="list-group-item list-group-item-warning">PUT / instruments/:id/purchases</b> - purchases an instrument, incrementing the "purchases" field</li>
+				<li class="list-group-item list-group-item-danger">DELETE / instruments/</b> - deletes all current instrumentals stored in the database</li>
+				<li class="list-group-item list-group-item-danger">DELETE / instruments/:id</b> - delete an individual instrumental by ID</li>
+			</ul>
+			</p>
+		<!--</div>-->
+		<!--<div class="well well-lg">-->
+			<h2>User Routes:</h2>
+			<p>
+			<li class="list-group-item list-group-item-success">POST / users</b> - create a new user with provided metadata</li>
+			<li class="list-group-item list-group-item-info">GET / user</b> - returns all current users stored in the database with their associated metadata</li>
+			<li class="list-group-item list-group-item-info">GET / users/:id</b> - return an individual user with associated metadata</li>
+			<li class="list-group-item list-group-item-warning">PUT / users/:id</b> - updates an individual user with provided metadata</li>
+			<li class="list-group-item list-group-item-danger">DELETE / users/</b> - deletes all current users stored in the database</li>
+			<li class="list-group-item list-group-item-danger">DELETE / users/:id</b> - delete an individual user by ID</li>
+			</p>
+		<!--</div>-->
+
+	</main>
+
+	<footer>
+		<% include footer %>
+	</footer>
+	
 </body>
 </html>
