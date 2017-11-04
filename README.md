@@ -1,6 +1,6 @@
-# Instrum.io
-### Luke Halley - 2001820
+![Logo](https://raw.githubusercontent.com/lukehalley/Instrum.io/master/data/logo.png)
 
+### Luke Halley - 2001820
 • Persistence approach adopted i.e. what’s persisted and
 where.
 • Git approach adopted and link to git project / access.
