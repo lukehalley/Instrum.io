@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('donationweb-1.0:server');
+var debug = require('debug')('Instrum.io:server');
 var http = require('http');
 
 /**
