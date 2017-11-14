@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="979b246d-7220-4f0d-85d2-48d57678e980" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/dep/images/user.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dep/images/user-img-background.jpg" afterPath="$PROJECT_DIR$/public/dep/images/user-img-background.jpg" />
@@ -10,6 +11,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dep/plugins/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/public/dep/plugins/bootstrap/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
     </list>
+=======
+    <list default="true" id="979b246d-7220-4f0d-85d2-48d57678e980" name="Default" comment="" />
+>>>>>>> 6950b78596a8b46de2ee1bbdd52cd220c23aadbe
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -32,6 +36,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-718">
+              <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userModel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/userModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/header.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="62" lean-forward="false" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> 6950b78596a8b46de2ee1bbdd52cd220c23aadbe
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
@@ -1631,15 +1678,22 @@
       <workItem from="1509799746930" duration="24000" />
       <workItem from="1509799793611" duration="955000" />
       <workItem from="1509800836079" duration="6496000" />
+<<<<<<< HEAD
       <workItem from="1510587993498" duration="1767000" />
       <workItem from="1510651654041" duration="3684000" />
       <workItem from="1510656672008" duration="841000" />
       <workItem from="1510670569936" duration="3720000" />
+=======
+>>>>>>> 6950b78596a8b46de2ee1bbdd52cd220c23aadbe
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="76386000" />
+=======
+    <option name="totallyTimeSpent" value="66374000" />
+>>>>>>> 6950b78596a8b46de2ee1bbdd52cd220c23aadbe
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2016,8 +2070,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/dep/css/materialize.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="322">
           <caret line="95" column="44" lean-forward="true" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="44" />
+=======
+        <state relative-caret-position="45">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+>>>>>>> 6950b78596a8b46de2ee1bbdd52cd220c23aadbe
           <folding />
         </state>
       </provider>
