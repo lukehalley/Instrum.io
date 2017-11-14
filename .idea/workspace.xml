@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="979b246d-7220-4f0d-85d2-48d57678e980" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/angularApp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/controllers/instrumentalcontroller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/controllers/usercontroller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pages/instrumentalroutes.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pages/userroutes.ejs" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/footer.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/head.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/header.ejs" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
-    </list>
+    <list default="true" id="979b246d-7220-4f0d-85d2-48d57678e980" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -1606,12 +1595,12 @@
       <workItem from="1509799793611" duration="955000" />
       <workItem from="1509800836079" duration="6496000" />
       <workItem from="1510587993498" duration="1767000" />
-      <workItem from="1510651654041" duration="2460000" />
+      <workItem from="1510651654041" duration="2502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70601000" />
+    <option name="totallyTimeSpent" value="70643000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
