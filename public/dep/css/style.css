@@ -1966,7 +1966,7 @@
     color: #fff !important; }
 
 .bg-grey {
-  background-color: #9E9E9E !important;
+  background-color: #3e424b !important;
   color: #fff; }
   .bg-grey .content .text,
   .bg-grey .content .number {
@@ -2976,7 +2976,7 @@ section.content {
           color: #000; }
     .card .header h2 {
       margin: 0;
-      font-size: 18px;
+      font-size: 35px;
       font-weight: normal;
       color: #111; }
       .card .header h2 small {

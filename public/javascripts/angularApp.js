@@ -29,6 +29,11 @@ app.config(function($routeProvider) {
                 controller  : 'uploadedController'
             })
 
+            .when('/users', {
+                templateUrl : 'pages/users.ejs',
+                controller  : 'usersController'
+            })
+
             .when('/upload', {
                 templateUrl : 'pages/upload.ejs',
                 controller  : 'feedController'

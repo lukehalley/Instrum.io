@@ -1,0 +1,13 @@
+Instrumentals:
+
+{"title":"Alone","owner":"Luke Halley","genre":"Hip Hop","tags":"Sad, Depressed","price":50,"bpm":140,"plays":213,"purchases":4}
+{"title":"Heater","owner":"Taz Taylor","genre":"Trap","tags":"Angry, Ghetto","price":25,"bpm":155,"plays":132,"purchases":10}
+{"title":"More Life","owner":"LHK Beats","genre":"Dancehall","tags":"happy, energy","price":60,"bpm":100,"plays":23,"purchases":0}
+{"title":"Mars","owner":"LHK Beats","genre":"Trap","tags":"uzi, yuh","price":100,"bpm":155,"plays":666,"purchases":1000}
+
+Users:
+
+{"name":"Luke Halley","username":"LHKBeats","password":"passwordluke","admin":1,"location":"Ireland","age":20}
+{"name":"Metro Boomin","username":"YoungMetro","password":"passwordmetro","admin":0,"location":"USA","age":21}
+{"name":"","Ronny J":"RonnyJ","password":"passwordronny","admin":1,"location":"USA","age":25}
+{"name":"DP Beats","username":"DPBeats","password":"passworddp","admin":0,"location":"USA","age":18}
