@@ -7,7 +7,7 @@ Instrumentals:
 
 Users:
 
-{"name":"Luke Halley","username":"LHKBeats","password":"passwordluke","admin":1,"location":"Ireland","age":20}
-{"name":"Metro Boomin","username":"YoungMetro","password":"passwordmetro","admin":0,"location":"USA","age":21}
-{"name":"","Ronny J":"RonnyJ","password":"passwordronny","admin":1,"location":"USA","age":25}
-{"name":"DP Beats","username":"DPBeats","password":"passworddp","admin":0,"location":"USA","age":18}
+{"name":"Luke Halley","username":"LHKBeats","password":"passwordluke","location":"Ireland","age":20}
+{"name":"Metro Boomin","username":"YoungMetro","password":"passwordmetro","location":"USA","age":21}
+{"name":"","Ronny J":"RonnyJ","password":"passwordronny","location":"USA","age":25}
+{"name":"DP Beats","username":"DPBeats","password":"passworddp","location":"USA","age":18}
