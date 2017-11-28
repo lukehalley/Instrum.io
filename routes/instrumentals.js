@@ -44,7 +44,7 @@ router.findOneInstrumental = function(req, res) {
 router.sortByNewest = function(req, res) {
     //TODO: Sort by date
     // Use the model model to find a single instrumental
-    model.find().sort({ "uploadDate" : req.params.uploadDate : -1}, function(err, instrumental) {
+    model.find({}).sort({uploadDate: -1}).exec(function(err, instrumental) {
         if (err)
             res.json({ message: 'model NOT Found!', errmsg : err } );
         else
@@ -124,8 +124,6 @@ router.deleteAllInstrumentals = function(req, res) {
             res.json({ message: 'All Instrumentals Have Been Deleted!'});
     });
 };
-
-
 
 module.exports = router;
 
