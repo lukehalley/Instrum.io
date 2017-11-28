@@ -27,7 +27,7 @@
 											<i class="material-icons">thumb_up</i>
 											<span>Like:  {{instrumental.likes}}</span>
 										</button>
-										<button type="button" class="btn bg-grey waves-effect">
+										<button type="button" ng-click="purchaseInstrumental(instrumental._id)" class="btn bg-grey waves-effect">
 											<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>
 											<span>Purchase:  €{{instrumental.price}}</span>
 										</button>
