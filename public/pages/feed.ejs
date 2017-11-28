@@ -24,7 +24,7 @@
 										<b>Upload Date: </b> {{instrumental.uploadDateISO}}<br />
 										<h3> </h3>
 										<button type="button" class="btn bg-red waves-effect">
-											<i href="javascript:void(0);" class="material-icons">thumb_up</i>
+											<i ng-click="likeInstrumental(instrumental._id)" class="material-icons">thumb_up</i>
 											<span>Like:  {{instrumental.likes}}</span>
 										</button>
 										<button type="button" class="btn bg-grey waves-effect">
