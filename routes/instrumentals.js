@@ -26,7 +26,7 @@ router.findAllInstrumentals = function(req, res) {
         else
             res.json(instrumentals);
     });
-}
+};
 
 // GET - Finds one instrumental given an id
 router.findOneInstrumental = function(req, res) {
@@ -38,14 +38,27 @@ router.findOneInstrumental = function(req, res) {
         else
             res.json(instrumental);
     });
-}
+};
+
+// GET - Sorts the instrumentals by newest first
+router.sortByNewest = function(req, res) {
+    //TODO: Sort by date
+    // Use the model model to find a single instrumental
+    model.find().sort({ "uploadDate" : req.params.uploadDate : -1}, function(err, instrumental) {
+        if (err)
+            res.json({ message: 'model NOT Found!', errmsg : err } );
+        else
+            res.json(instrumental);
+    });
+};
 
 // POST - Adds an instrumental given some JSON data
 router.addOneInstrumental = function(req, res) {
-
+    var currentDate = new Date();
     var instrumental = new model();
     instrumental.title = req.body.title;
     instrumental.owner = req.body.owner;
+    instrumental.uploadDate = currentDate.toISOString();
     instrumental.genre = req.body.genre;
     instrumental.tags = req.body.tags;
     instrumental.price = req.body.price;
@@ -61,7 +74,7 @@ router.addOneInstrumental = function(req, res) {
             res.send(err);
         res.json({ message: 'Instrumental Added!', data: instrumental });
     });
-}
+};
 
 // PUT - Adds one purchase to an instrument given its ID
 router.purchaseInstrumental = function(req, res) {
@@ -78,7 +91,7 @@ router.purchaseInstrumental = function(req, res) {
             });
         }
     });
-}
+};
 
 // PUT - Adds one purchase to an instrument given its ID
 router.updateInstrumental = function(req, res) {
@@ -99,7 +112,7 @@ router.deleteOneInstrumental = function(req, res) {
         else
             res.json({message: 'Instrumental Deleted!'});
     });
-}
+};
 
 // DELETE - Deletes all instrumentals from db
 router.deleteAllInstrumentals = function(req, res) {
@@ -110,6 +123,10 @@ router.deleteAllInstrumentals = function(req, res) {
         else
             res.json({ message: 'All Instrumentals Have Been Deleted!'});
     });
-}
+};
+
+
 
 module.exports = router;
+
+// model.find().sort({uploadDate: -1}, function(err, instrumental){...});
