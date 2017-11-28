@@ -2,15 +2,15 @@ var mongoose = require('mongoose');
 
 // Creates schema for an Instrumental
 var instrumentalSchema = new mongoose.Schema({
-    title: String,
-    owner: String,
+    title: {type: String, default: "No Title"},
+    owner: {type: String, default: "No Owner"},
     uploadDateISO: Date,
-    uploadDateNormal: Date,
-    genre: String,
-    tags: String,
-    price: Number,
-    bpm: Number,
-    plays: Number,
+    genre: {type: String, default: "No Genre"},
+    tags: {type: String, default: "No Tags"},
+    price: {type: Number, default: 0},
+    bpm: {type: Number, default: 0},
+    plays: {type: Number, default: 0},
+    likes: {type: Number, default: 0},
     purchases: {type: Number, default: 0}
 });
 

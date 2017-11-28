@@ -3,6 +3,10 @@ var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
 var db = mongoose.connection;
+var queryOptions = {
+    upsert: true,
+    setDefaultsOnInsert: true
+};
 
 // Connects to the MongoDB server
 mongoose.connect('mongodb://localhost:27017/instrumdb');
@@ -66,6 +70,7 @@ router.addOneInstrumental = function(req, res) {
     instrumental.price = req.body.price;
     instrumental.bpm = req.body.bpm;
     instrumental.plays = req.body.plays;
+    instrumental.likes = req.body.likes;
     instrumental.purchases = req.body.purchases;
 
     console.log('Adding instrumental: ' + JSON.stringify(instrumental));
