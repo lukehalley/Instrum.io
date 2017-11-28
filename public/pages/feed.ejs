@@ -8,351 +8,291 @@
 						My Feed
 					</h2>
 				</div>
-				<div class="body">
-					<div class="row">
-						<div class="col-sm-6 col-md-3">
-							<div class="thumbnail">
-								<img src="../dep/images/art/nav.jpg">
-								<div class="caption">
-									<h1>Alone</h1>
-									<h3>Nav Type Beat</h3>
-									<b>Produced By: </b> Luke Halley<br />
-									<b>Genre: </b> Hip Hop<br />
-									<b>BPM: </b> 140BPM
-									<h3> </h3>
-									<button type="button" class="btn bg-red waves-effect">
-										<i href="javascript:void(0);" class="material-icons">thumb_up</i>
-										<span>Like</span>
-									</button>
-									<button type="button" class="btn bg-grey waves-effect">
-										<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>
-										<span>Purchase</span>
-									</button>
+				<div ng-controller="feedController as list">
+					<div class="body">
+						<div class="row">
+							<div class="col-sm-6 col-md-3" ng-repeat="instrumental in instrumentals">
+								<div class="thumbnail" >
+									<img src="../dep/images/art/nav.jpg">
+									<div class="caption">
+										<h1>{{instrumental.title}}</h1>
+										<h3>Tags: {{instrumental.tags}}</h3>
+										<b>Produced By: </b> {{instrumental.owner}}<br />
+										<b>Genre: </b> {{instrumental.genre}}<br />
+										<b>BPM: </b> {{instrumental.bpm}}<br />
+										<b>Upload Date: </b> {{instrumental.uploadDateISO}}<br />
+										<h3> </h3>
+										<button type="button" class="btn bg-red waves-effect">
+											<i href="javascript:void(0);" class="material-icons">thumb_up</i>
+											<span>Like</span>
+										</button>
+										<button type="button" class="btn bg-grey waves-effect">
+											<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>
+											<span>Purchase</span>
+										</button>
 
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-md-3">
-							<div class="thumbnail">
-								<img src="../dep/images/art/21.jpg">
-								<div class="caption">
-									<h1>Heater</h1>
-									<h3>21 Savage Type Beat</h3>
-									<b>Produced By: </b> Taz Taylor<br />
-									<b>Genre: </b> Trap<br />
-									<b>BPM: </b> 155BPM
-									<h3> </h3>
-									<button type="button" class="btn bg-red waves-effect">
-										<i href="javascript:void(0);" class="material-icons">thumb_up</i>
-										<span>Like</span>
-									</button>
-									<button type="button" class="btn bg-grey waves-effect">
-										<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>
-										<span>Purchase</span>
-									</button>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<div class="thumbnail">
-								<img src="../dep/images/art/drake.jpg">
-								<div class="caption">
-									<h1>More Life</h1>
-									<h3>Drake Type Type Beat</h3>
-									<b>Produced By: </b> LHK Beats<br />
-									<b>Genre: </b> Dancehall<br />
-									<b>BPM: </b> 100BPM
-									<h3></h3>
-									<button type="button" class="btn bg-red waves-effect">
-										<i href="javascript:void(0);" class="material-icons">thumb_up</i>
-										<span>Like</span>
-									</button>
-									<button type="button" class="btn bg-grey waves-effect">
-										<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>
-										<span>Purchase</span>
-									</button>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<div class="thumbnail">
-								<img src="../dep/images/art/uzi.jpg">
-								<div class="caption">
-									<h1>Mars</h1>
-									<h3>Lil Uzi Type Type Beat</h3>
-									<b>Produced By: </b> The Martianz<br />
-									<b>Genre: </b> Trap<br />
-									<b>BPM: </b> 170BPM
-									<h3> </h3>
-									<button type="button" class="btn bg-red waves-effect">
-										<i href="javascript:void(0);" class="material-icons">thumb_up</i>
-										<span>Like</span>
-									</button>
-									<button type="button" class="btn bg-grey waves-effect">
-										<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>
-										<span>Purchase</span>
-									</button>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6 col-md-3">
-							<div class="thumbnail">
-								<img src="../dep/images/art/nav.jpg">
-								<div class="caption">
-									<h1>Alone</h1>
-									<h3>Nav Type Beat</h3>
-									<b>Produced By: </b> Luke Halley<br />
-									<b>Genre: </b> Hip Hop<br />
-									<b>BPM: </b> 140BPM
-									<h3> </h3>
-									<button type="button" class="btn bg-red waves-effect">
-										<i href="javascript:void(0);" class="material-icons">thumb_up</i>
-										<span>Like</span>
-									</button>
-									<button type="button" class="btn bg-grey waves-effect">
-										<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>
-										<span>Purchase</span>
-									</button>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<div class="thumbnail">
-								<img src="../dep/images/art/21.jpg">
-								<div class="caption">
-									<h1>Heater</h1>
-									<h3>21 Savage Type Beat</h3>
-									<b>Produced By: </b> Taz Taylor<br />
-									<b>Genre: </b> Trap<br />
-									<b>BPM: </b> 155BPM
-									<h3> </h3>
-									<button type="button" class="btn bg-red waves-effect">
-										<i href="javascript:void(0);" class="material-icons">thumb_up</i>
-										<span>Like</span>
-									</button>
-									<button type="button" class="btn bg-grey waves-effect">
-										<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>
-										<span>Purchase</span>
-									</button>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<div class="thumbnail">
-								<img src="../dep/images/art/drake.jpg">
-								<div class="caption">
-									<h1>More Life</h1>
-									<h3>Drake Type Type Beat</h3>
-									<b>Produced By: </b> LHK Beats<br />
-									<b>Genre: </b> Dancehall<br />
-									<b>BPM: </b> 100BPM
-									<h3></h3>
-									<button type="button" class="btn bg-red waves-effect">
-										<i href="javascript:void(0);" class="material-icons">thumb_up</i>
-										<span>Like</span>
-									</button>
-									<button type="button" class="btn bg-grey waves-effect">
-										<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>
-										<span>Purchase</span>
-									</button>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<div class="thumbnail">
-								<img src="../dep/images/art/uzi.jpg">
-								<div class="caption">
-									<h1>Mars</h1>
-									<h3>Lil Uzi Type Type Beat</h3>
-									<b>Produced By: </b> The Martianz<br />
-									<b>Genre: </b> Trap<br />
-									<b>BPM: </b> 170BPM
-									<h3> </h3>
-									<button type="button" class="btn bg-red waves-effect">
-										<i href="javascript:void(0);" class="material-icons">thumb_up</i>
-										<span>Like</span>
-									</button>
-									<button type="button" class="btn bg-grey waves-effect">
-										<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>
-										<span>Purchase</span>
-									</button>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6 col-md-3">
-							<div class="thumbnail">
-								<img src="../dep/images/art/nav.jpg">
-								<div class="caption">
-									<h1>Alone</h1>
-									<h3>Nav Type Beat</h3>
-									<b>Produced By: </b> Luke Halley<br />
-									<b>Genre: </b> Hip Hop<br />
-									<b>BPM: </b> 140BPM
-									<h3> </h3>
-									<button type="button" class="btn bg-red waves-effect">
-										<i href="javascript:void(0);" class="material-icons">thumb_up</i>
-										<span>Like</span>
-									</button>
-									<button type="button" class="btn bg-grey waves-effect">
-										<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>
-										<span>Purchase</span>
-									</button>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<div class="thumbnail">
-								<img src="../dep/images/art/21.jpg">
-								<div class="caption">
-									<h1>Heater</h1>
-									<h3>21 Savage Type Beat</h3>
-									<b>Produced By: </b> Taz Taylor<br />
-									<b>Genre: </b> Trap<br />
-									<b>BPM: </b> 155BPM
-									<h3> </h3>
-									<button type="button" class="btn bg-red waves-effect">
-										<i href="javascript:void(0);" class="material-icons">thumb_up</i>
-										<span>Like</span>
-									</button>
-									<button type="button" class="btn bg-grey waves-effect">
-										<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>
-										<span>Purchase</span>
-									</button>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<div class="thumbnail">
-								<img src="../dep/images/art/drake.jpg">
-								<div class="caption">
-									<h1>More Life</h1>
-									<h3>Drake Type Type Beat</h3>
-									<b>Produced By: </b> LHK Beats<br />
-									<b>Genre: </b> Dancehall<br />
-									<b>BPM: </b> 100BPM
-									<h3></h3>
-									<button type="button" class="btn bg-red waves-effect">
-										<i href="javascript:void(0);" class="material-icons">thumb_up</i>
-										<span>Like</span>
-									</button>
-									<button type="button" class="btn bg-grey waves-effect">
-										<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>
-										<span>Purchase</span>
-									</button>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<div class="thumbnail">
-								<img src="../dep/images/art/uzi.jpg">
-								<div class="caption">
-									<h1>Mars</h1>
-									<h3>Lil Uzi Type Type Beat</h3>
-									<b>Produced By: </b> The Martianz<br />
-									<b>Genre: </b> Trap<br />
-									<b>BPM: </b> 170BPM
-									<h3> </h3>
-									<button type="button" class="btn bg-red waves-effect">
-										<i href="javascript:void(0);" class="material-icons">thumb_up</i>
-										<span>Like</span>
-									</button>
-									<button type="button" class="btn bg-grey waves-effect">
-										<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>
-										<span>Purchase</span>
-									</button>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6 col-md-3">
-							<div class="thumbnail">
-								<img src="../dep/images/art/nav.jpg">
-								<div class="caption">
-									<h1>Alone</h1>
-									<h3>Nav Type Beat</h3>
-									<b>Produced By: </b> Luke Halley<br />
-									<b>Genre: </b> Hip Hop<br />
-									<b>BPM: </b> 140BPM
-									<h3> </h3>
-									<button type="button" class="btn bg-red waves-effect">
-										<i href="javascript:void(0);" class="material-icons">thumb_up</i>
-										<span>Like</span>
-									</button>
-									<button type="button" class="btn bg-grey waves-effect">
-										<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>
-										<span>Purchase</span>
-									</button>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<div class="thumbnail">
-								<img src="../dep/images/art/21.jpg">
-								<div class="caption">
-									<h1>Heater</h1>
-									<h3>21 Savage Type Beat</h3>
-									<b>Produced By: </b> Taz Taylor<br />
-									<b>Genre: </b> Trap<br />
-									<b>BPM: </b> 155BPM
-									<h3> </h3>
-									<button type="button" class="btn bg-red waves-effect">
-										<i href="javascript:void(0);" class="material-icons">thumb_up</i>
-										<span>Like</span>
-									</button>
-									<button type="button" class="btn bg-grey waves-effect">
-										<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>
-										<span>Purchase</span>
-									</button>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<div class="thumbnail">
-								<img src="../dep/images/art/drake.jpg">
-								<div class="caption">
-									<h1>More Life</h1>
-									<h3>Drake Type Type Beat</h3>
-									<b>Produced By: </b> LHK Beats<br />
-									<b>Genre: </b> Dancehall<br />
-									<b>BPM: </b> 100BPM
-									<h3></h3>
-									<button type="button" class="btn bg-red waves-effect">
-										<i href="javascript:void(0);" class="material-icons">thumb_up</i>
-										<span>Like</span>
-									</button>
-									<button type="button" class="btn bg-grey waves-effect">
-										<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>
-										<span>Purchase</span>
-									</button>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<div class="thumbnail">
-								<img src="../dep/images/art/uzi.jpg">
-								<div class="caption">
-									<h1>Mars</h1>
-									<h3>Lil Uzi Type Type Beat</h3>
-									<b>Produced By: </b> The Martianz<br />
-									<b>Genre: </b> Trap<br />
-									<b>BPM: </b> 170BPM
-									<h3> </h3>
-									<button type="button" class="btn bg-red waves-effect">
-										<i href="javascript:void(0);" class="material-icons">thumb_up</i>
-										<span>Like</span>
-									</button>
-									<button type="button" class="btn bg-grey waves-effect">
-										<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>
-										<span>Purchase</span>
-									</button>
-								</div>
-							</div>
-						</div>
+						<!--<div class="row">-->
+							<!--<div class="col-sm-6 col-md-3">-->
+								<!--<div class="thumbnail">-->
+									<!--<img src="../dep/images/art/nav.jpg">-->
+									<!--<div class="caption">-->
+										<!--<h1>Alone</h1>-->
+										<!--<h3>Nav Type Beat</h3>-->
+										<!--<b>Produced By: </b> Luke Halley<br />-->
+										<!--<b>Genre: </b> Hip Hop<br />-->
+										<!--<b>BPM: </b> 140BPM-->
+										<!--<h3> </h3>-->
+										<!--<button type="button" class="btn bg-red waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">thumb_up</i>-->
+											<!--<span>Like</span>-->
+										<!--</button>-->
+										<!--<button type="button" class="btn bg-grey waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>-->
+											<!--<span>Purchase</span>-->
+										<!--</button>-->
+									<!--</div>-->
+								<!--</div>-->
+							<!--</div>-->
+							<!--<div class="col-sm-6 col-md-3">-->
+								<!--<div class="thumbnail">-->
+									<!--<img src="../dep/images/art/21.jpg">-->
+									<!--<div class="caption">-->
+										<!--<h1>Heater</h1>-->
+										<!--<h3>21 Savage Type Beat</h3>-->
+										<!--<b>Produced By: </b> Taz Taylor<br />-->
+										<!--<b>Genre: </b> Trap<br />-->
+										<!--<b>BPM: </b> 155BPM-->
+										<!--<h3> </h3>-->
+										<!--<button type="button" class="btn bg-red waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">thumb_up</i>-->
+											<!--<span>Like</span>-->
+										<!--</button>-->
+										<!--<button type="button" class="btn bg-grey waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>-->
+											<!--<span>Purchase</span>-->
+										<!--</button>-->
+									<!--</div>-->
+								<!--</div>-->
+							<!--</div>-->
+							<!--<div class="col-sm-6 col-md-3">-->
+								<!--<div class="thumbnail">-->
+									<!--<img src="../dep/images/art/drake.jpg">-->
+									<!--<div class="caption">-->
+										<!--<h1>More Life</h1>-->
+										<!--<h3>Drake Type Type Beat</h3>-->
+										<!--<b>Produced By: </b> LHK Beats<br />-->
+										<!--<b>Genre: </b> Dancehall<br />-->
+										<!--<b>BPM: </b> 100BPM-->
+										<!--<h3></h3>-->
+										<!--<button type="button" class="btn bg-red waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">thumb_up</i>-->
+											<!--<span>Like</span>-->
+										<!--</button>-->
+										<!--<button type="button" class="btn bg-grey waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>-->
+											<!--<span>Purchase</span>-->
+										<!--</button>-->
+									<!--</div>-->
+								<!--</div>-->
+							<!--</div>-->
+							<!--<div class="col-sm-6 col-md-3">-->
+								<!--<div class="thumbnail">-->
+									<!--<img src="../dep/images/art/uzi.jpg">-->
+									<!--<div class="caption">-->
+										<!--<h1>Mars</h1>-->
+										<!--<h3>Lil Uzi Type Type Beat</h3>-->
+										<!--<b>Produced By: </b> The Martianz<br />-->
+										<!--<b>Genre: </b> Trap<br />-->
+										<!--<b>BPM: </b> 170BPM-->
+										<!--<h3> </h3>-->
+										<!--<button type="button" class="btn bg-red waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">thumb_up</i>-->
+											<!--<span>Like</span>-->
+										<!--</button>-->
+										<!--<button type="button" class="btn bg-grey waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>-->
+											<!--<span>Purchase</span>-->
+										<!--</button>-->
+									<!--</div>-->
+								<!--</div>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="row">-->
+							<!--<div class="col-sm-6 col-md-3">-->
+								<!--<div class="thumbnail">-->
+									<!--<img src="../dep/images/art/nav.jpg">-->
+									<!--<div class="caption">-->
+										<!--<h1>Alone</h1>-->
+										<!--<h3>Nav Type Beat</h3>-->
+										<!--<b>Produced By: </b> Luke Halley<br />-->
+										<!--<b>Genre: </b> Hip Hop<br />-->
+										<!--<b>BPM: </b> 140BPM-->
+										<!--<h3> </h3>-->
+										<!--<button type="button" class="btn bg-red waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">thumb_up</i>-->
+											<!--<span>Like</span>-->
+										<!--</button>-->
+										<!--<button type="button" class="btn bg-grey waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>-->
+											<!--<span>Purchase</span>-->
+										<!--</button>-->
+									<!--</div>-->
+								<!--</div>-->
+							<!--</div>-->
+							<!--<div class="col-sm-6 col-md-3">-->
+								<!--<div class="thumbnail">-->
+									<!--<img src="../dep/images/art/21.jpg">-->
+									<!--<div class="caption">-->
+										<!--<h1>Heater</h1>-->
+										<!--<h3>21 Savage Type Beat</h3>-->
+										<!--<b>Produced By: </b> Taz Taylor<br />-->
+										<!--<b>Genre: </b> Trap<br />-->
+										<!--<b>BPM: </b> 155BPM-->
+										<!--<h3> </h3>-->
+										<!--<button type="button" class="btn bg-red waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">thumb_up</i>-->
+											<!--<span>Like</span>-->
+										<!--</button>-->
+										<!--<button type="button" class="btn bg-grey waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>-->
+											<!--<span>Purchase</span>-->
+										<!--</button>-->
+									<!--</div>-->
+								<!--</div>-->
+							<!--</div>-->
+							<!--<div class="col-sm-6 col-md-3">-->
+								<!--<div class="thumbnail">-->
+									<!--<img src="../dep/images/art/drake.jpg">-->
+									<!--<div class="caption">-->
+										<!--<h1>More Life</h1>-->
+										<!--<h3>Drake Type Type Beat</h3>-->
+										<!--<b>Produced By: </b> LHK Beats<br />-->
+										<!--<b>Genre: </b> Dancehall<br />-->
+										<!--<b>BPM: </b> 100BPM-->
+										<!--<h3></h3>-->
+										<!--<button type="button" class="btn bg-red waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">thumb_up</i>-->
+											<!--<span>Like</span>-->
+										<!--</button>-->
+										<!--<button type="button" class="btn bg-grey waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>-->
+											<!--<span>Purchase</span>-->
+										<!--</button>-->
+									<!--</div>-->
+								<!--</div>-->
+							<!--</div>-->
+							<!--<div class="col-sm-6 col-md-3">-->
+								<!--<div class="thumbnail">-->
+									<!--<img src="../dep/images/art/uzi.jpg">-->
+									<!--<div class="caption">-->
+										<!--<h1>Mars</h1>-->
+										<!--<h3>Lil Uzi Type Type Beat</h3>-->
+										<!--<b>Produced By: </b> The Martianz<br />-->
+										<!--<b>Genre: </b> Trap<br />-->
+										<!--<b>BPM: </b> 170BPM-->
+										<!--<h3> </h3>-->
+										<!--<button type="button" class="btn bg-red waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">thumb_up</i>-->
+											<!--<span>Like</span>-->
+										<!--</button>-->
+										<!--<button type="button" class="btn bg-grey waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>-->
+											<!--<span>Purchase</span>-->
+										<!--</button>-->
+									<!--</div>-->
+								<!--</div>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="row">-->
+							<!--<div class="col-sm-6 col-md-3">-->
+								<!--<div class="thumbnail">-->
+									<!--<img src="../dep/images/art/nav.jpg">-->
+									<!--<div class="caption">-->
+										<!--<h1>Alone</h1>-->
+										<!--<h3>Nav Type Beat</h3>-->
+										<!--<b>Produced By: </b> Luke Halley<br />-->
+										<!--<b>Genre: </b> Hip Hop<br />-->
+										<!--<b>BPM: </b> 140BPM-->
+										<!--<h3> </h3>-->
+										<!--<button type="button" class="btn bg-red waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">thumb_up</i>-->
+											<!--<span>Like</span>-->
+										<!--</button>-->
+										<!--<button type="button" class="btn bg-grey waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>-->
+											<!--<span>Purchase</span>-->
+										<!--</button>-->
+									<!--</div>-->
+								<!--</div>-->
+							<!--</div>-->
+							<!--<div class="col-sm-6 col-md-3">-->
+								<!--<div class="thumbnail">-->
+									<!--<img src="../dep/images/art/21.jpg">-->
+									<!--<div class="caption">-->
+										<!--<h1>Heater</h1>-->
+										<!--<h3>21 Savage Type Beat</h3>-->
+										<!--<b>Produced By: </b> Taz Taylor<br />-->
+										<!--<b>Genre: </b> Trap<br />-->
+										<!--<b>BPM: </b> 155BPM-->
+										<!--<h3> </h3>-->
+										<!--<button type="button" class="btn bg-red waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">thumb_up</i>-->
+											<!--<span>Like</span>-->
+										<!--</button>-->
+										<!--<button type="button" class="btn bg-grey waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>-->
+											<!--<span>Purchase</span>-->
+										<!--</button>-->
+									<!--</div>-->
+								<!--</div>-->
+							<!--</div>-->
+							<!--<div class="col-sm-6 col-md-3">-->
+								<!--<div class="thumbnail">-->
+									<!--<img src="../dep/images/art/drake.jpg">-->
+									<!--<div class="caption">-->
+										<!--<h1>More Life</h1>-->
+										<!--<h3>Drake Type Type Beat</h3>-->
+										<!--<b>Produced By: </b> LHK Beats<br />-->
+										<!--<b>Genre: </b> Dancehall<br />-->
+										<!--<b>BPM: </b> 100BPM-->
+										<!--<h3></h3>-->
+										<!--<button type="button" class="btn bg-red waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">thumb_up</i>-->
+											<!--<span>Like</span>-->
+										<!--</button>-->
+										<!--<button type="button" class="btn bg-grey waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>-->
+											<!--<span>Purchase</span>-->
+										<!--</button>-->
+									<!--</div>-->
+								<!--</div>-->
+							<!--</div>-->
+							<!--<div class="col-sm-6 col-md-3">-->
+								<!--<div class="thumbnail">-->
+									<!--<img src="../dep/images/art/uzi.jpg">-->
+									<!--<div class="caption">-->
+										<!--<h1>Mars</h1>-->
+										<!--<h3>Lil Uzi Type Type Beat</h3>-->
+										<!--<b>Produced By: </b> The Martianz<br />-->
+										<!--<b>Genre: </b> Trap<br />-->
+										<!--<b>BPM: </b> 170BPM-->
+										<!--<h3> </h3>-->
+										<!--<button type="button" class="btn bg-red waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">thumb_up</i>-->
+											<!--<span>Like</span>-->
+										<!--</button>-->
+										<!--<button type="button" class="btn bg-grey waves-effect">-->
+											<!--<i href="javascript:void(0);" class="material-icons">add_shopping_cart</i>-->
+											<!--<span>Purchase</span>-->
+										<!--</button>-->
+									<!--</div>-->
+								<!--</div>-->
+							<!--</div>-->
+						<!--</div>-->
 					</div>
 				</div>
 			</div>

@@ -4,7 +4,8 @@ var mongoose = require('mongoose');
 var instrumentalSchema = new mongoose.Schema({
     title: String,
     owner: String,
-    uploadDate: Date,
+    uploadDateISO: Date,
+    uploadDateNormal: Date,
     genre: String,
     tags: String,
     price: Number,

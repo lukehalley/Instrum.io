@@ -44,7 +44,7 @@ router.findOneInstrumental = function(req, res) {
 router.sortByNewest = function(req, res) {
     //TODO: Sort by date
     // Use the model model to find a single instrumental
-    model.find({}).sort({uploadDate: -1}).exec(function(err, instrumental) {
+    model.find({}).sort({uploadDateISO: -1}).exec(function(err, instrumental) {
         if (err)
             res.json({ message: 'model NOT Found!', errmsg : err } );
         else
@@ -54,11 +54,13 @@ router.sortByNewest = function(req, res) {
 
 // POST - Adds an instrumental given some JSON data
 router.addOneInstrumental = function(req, res) {
-    var currentDate = new Date();
+
+    var currentDateIso = new Date();
+
     var instrumental = new model();
     instrumental.title = req.body.title;
     instrumental.owner = req.body.owner;
-    instrumental.uploadDate = currentDate.toISOString();
+    instrumental.uploadDateISO = currentDateIso.toISOString();
     instrumental.genre = req.body.genre;
     instrumental.tags = req.body.tags;
     instrumental.price = req.body.price;
@@ -126,5 +128,3 @@ router.deleteAllInstrumentals = function(req, res) {
 };
 
 module.exports = router;
-
-// model.find().sort({uploadDate: -1}, function(err, instrumental){...});
