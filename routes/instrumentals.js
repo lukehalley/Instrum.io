@@ -46,11 +46,19 @@ router.findOneInstrumental = function(req, res) {
 
 // GET - Sorts the instrumentals by newest first
 router.sortByNewest = function(req, res) {
-    //TODO: Sort by date
-    // Use the model model to find a single instrumental
     model.find({}).sort({uploadDateISO: -1}).exec(function(err, instrumental) {
         if (err)
-            res.json({ message: 'model NOT Found!', errmsg : err } );
+            res.json({ message: 'Instrumentals could not be sorted by newest!', errmsg : err } );
+        else
+            res.json(instrumental);
+    });
+};
+
+// GET - Sorts the instrumentals by newest first
+router.sortByPurchases = function(req, res) {
+    model.find({}).sort({purchases: 1}).exec(function(err, instrumental) {
+        if (err)
+            res.json({ message: 'Instrumentals could not be sorted by purchases!', errmsg : err } );
         else
             res.json(instrumental);
     });
