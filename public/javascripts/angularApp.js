@@ -5,13 +5,13 @@ app.config(function($routeProvider) {
 
             // route for the landing page which is the feed
             .when('/', {
-                templateUrl : 'pages/feed.ejs',
-                controller  : 'feedController'
+                templateUrl : 'pages/newest.ejs',
+                controller  : 'newestController'
             })
 
-            .when('/feed', {
-                templateUrl : 'pages/feed.ejs',
-                controller  : 'feedController'
+            .when('/newest', {
+                templateUrl : 'pages/newest.ejs',
+                controller  : 'newestController'
             })
 
             .when('/genre', {
@@ -41,7 +41,7 @@ app.config(function($routeProvider) {
 
             .when('/upload', {
                 templateUrl : 'pages/upload.ejs',
-                controller  : 'feedController'
+                controller  : 'uploadController'
             });
 
     });

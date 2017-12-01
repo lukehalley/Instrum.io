@@ -1,6 +1,6 @@
 var app = angular.module('InstrumApp');
 
-app.controller('feedController', ['$scope', '$http' ,function($scope, $http) {
+app.controller('newestController', ['$scope', '$http' ,function($scope, $http) {
 
     sortByNewest();
 
