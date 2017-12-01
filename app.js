@@ -27,6 +27,7 @@ app.use('/', routes);
 // Routes for instrumentals
 app.get('/instrumentals', instrumentals.findAllInstrumentals);
 app.get('/instrumentals/newest', instrumentals.sortByNewest);
+app.get('/instrumentals/mostliked', instrumentals.sortByLikes);
 app.get('/instrumentals/mostpurchased', instrumentals.sortByPurchases);
 app.get('/instrumentals/:id', instrumentals.findOneInstrumental);
 

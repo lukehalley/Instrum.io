@@ -56,11 +56,21 @@ router.sortByNewest = function(req, res) {
     });
 };
 
-// GET - Sorts the instrumentals by newest first
+// GET - Sorts the instrumentals by their purchase count
 router.sortByPurchases = function(req, res) {
-    model.find({}).sort({purchases: 1}).exec(function(err, instrumental) {
+    model.find({}).sort({purchases: -1}).exec(function(err, instrumental) {
         if (err)
             res.json({ message: 'Instrumentals could not be sorted by purchases!', errmsg : err } );
+        else
+            res.json(instrumental);
+    });
+};
+
+// GET - Sorts the instrumentals by their like count
+router.sortByLikes = function(req, res) {
+    model.find({}).sort({likes: -1}).exec(function(err, instrumental) {
+        if (err)
+            res.json({ message: 'Instrumentals could not be sorted by likes!', errmsg : err } );
         else
             res.json(instrumental);
     });
