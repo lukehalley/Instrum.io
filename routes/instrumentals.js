@@ -3,14 +3,10 @@ var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
 var db = mongoose.connection;
-var queryOptions = {
-    upsert: true,
-    setDefaultsOnInsert: true
-};
 
 // Connects to the MongoDB server
 mongoose.connect('mongodb://localhost:27017/instrumdb');
-//TODO: Move password so its not public on GIT
+
 // mongoose.connect('mongodb://lukehalley:0mkw4st5@ds121494.mlab.com:21494/instrum-io');
 
 // Catches an error if there is a problem connecting to the database, sends the message 'connection error' to the console along with the error (err)
@@ -25,26 +21,27 @@ db.once('open', function () {
 
 // GET - Finds all current instrumentals in database
 router.findAllInstrumentals = function(req, res) {
-    // Use the model model to find all instrumental
-    model.find(function(err, instrumentals) {
-        if (err)
-            res.send(err);
-        else
-            res.json(instrumentals);
-    });
+    if(req.query.search) {
+        console.log('------ WORKING ------');
+        const regex = new RegExp(escapeRegex(req.query.search), 'gi');
+        model.find({"title": regex},function(err, instrumentals) {
+            if (err)
+                res.send(err);
+            else
+                res.json(instrumentals);
+        });
+    } else {
+        console.log('------ NOT WORKING ------');
+        model.find(function(err, instrumentals) {
+            if (err)
+                res.send(err);
+            else
+                res.json(instrumentals);
+        });
+    }
 };
 
-// GET - Finds one instrumental given an id
-router.findOneInstrumental = function(req, res) {
-
-    // Use the model model to find a single instrumental
-    model.find({ "_id" : req.params.id },function(err, instrumental) {
-        if (err)
-            res.json({ message: 'model NOT Found!', errmsg : err } );
-        else
-            res.json(instrumental);
-    });
-};
+console.log('------ NOT WORKING ------');
 
 // GET - Sorts the instrumentals by newest first
 router.sortByNewest = function(req, res) {
@@ -55,6 +52,19 @@ router.sortByNewest = function(req, res) {
             res.json(instrumental);
     });
 };
+
+// GET - Finds one instrumental given an id
+router.findOneInstrumental = function(req, res) {
+    // Use the model model to find a single instrumental
+    model.find({ "_id" : req.params.id },function(err, instrumental) {
+        if (err)
+            res.json({ message: 'model NOT Found!', errmsg : err } );
+        else
+            res.json(instrumental);
+    });
+};
+
+
 
 // GET - Sorts the instrumentals by their purchase count
 router.sortByPurchases = function(req, res) {
@@ -168,5 +178,12 @@ router.deleteAllInstrumentals = function(req, res) {
             res.json({ message: 'All Instrumentals Have Been Deleted!'});
     });
 };
+
+// Fuzzy search
+// https://stackoverflow.com/questions/38421664/fuzzy-searching-with-mongodb
+function escapeRegex(text) {
+    return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
+};
+
 
 module.exports = router;
