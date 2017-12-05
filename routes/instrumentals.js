@@ -7,7 +7,6 @@ var db = mongoose.connection;
 // Connects to the MongoDB server
 // mongoose.connect('mongodb://localhost:27017/instrumdb');
 mongoose.connect('mongodb://lukehalley:0mkw4st5@ds121494.mlab.com:21494/instrum-io');
-
 // Catches an error if there is a problem connecting to the database, sends the message 'connection error' to the console along with the error (err)
 db.on('error', function (err) {
     console.log('connection error', err);
@@ -17,13 +16,12 @@ db.on('error', function (err) {
 db.once('open', function () {
     console.log('connected to database');
 });
-
+// todo Search using specific title like getting on instrumentl and make a new route two like sortby likes etc
 // GET - Finds all current instrumentals in database
 router.findAllInstrumentals = function(req, res) {
     if(req.query.search) {
-        console.log('------ WORKING ------');
         const regex = new RegExp(escapeRegex(req.query.search), 'gi');
-        model.find({"title": regex},function(err, instrumentals) {
+        model.find({"title": req.query.search.title},function(err, instrumentals) {
             if (err)
                 res.send(err);
             else
@@ -39,8 +37,6 @@ router.findAllInstrumentals = function(req, res) {
         });
     }
 };
-
-console.log('------ NOT WORKING ------');
 
 // GET - Sorts the instrumentals by newest first
 router.sortByNewest = function(req, res) {
