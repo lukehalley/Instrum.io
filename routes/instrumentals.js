@@ -6,7 +6,7 @@ var db = mongoose.connection;
 
 // Connects to the MongoDB server
 // mongoose.connect('mongodb://localhost:27017/instrumdb');
-mongoose.connect('mongodb://lukehalley:0mkw4st5@ds121494.mlab.com:21494/instrum-io');
+mongoose.connect('mongodb://instrumuser:instrumpassword@ds121494.mlab.com:21494/instrum-io');
 // Catches an error if there is a problem connecting to the database, sends the message 'connection error' to the console along with the error (err)
 db.on('error', function (err) {
     console.log('connection error', err);
