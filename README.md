@@ -1,12 +1,12 @@
 
-![Logo](https://raw.githubusercontent.com/lukehalley/Instrum.io/master/data/logo_small.png)
+![Logo](https://raw.githubusercontent.com/lukehalley/Instrum.io/master/data/logo.png?token=AFW2_5TtEMDS6r_bnqH62XKp6cokYksUks5aPnbQwA%3D%3D)
 
-### Luke Halley
+### Created by Luke Halley
 ### Student Number: 20071820
 ### [Github Respository](https://github.com/lukehalley/Instrum.io)
 
-• DX approach adopted.
-• References
+## Description Of Application
+Instrum.io is a modern, material design web application. The use of this web app is allow users to buy and sell musical instrumentals, siumular to websites such as [Beatstars](http://beatstars.com/) and [Airbit](https://airbit.com).
 
 ## Description Of Functionality
 Instrum.io is a web application which has two **models**:
@@ -28,7 +28,8 @@ Instrum.io is a web application which has two **models**:
 * POST / users - create a new user with provided metadata 
 * GET / user - returns all current users stored in the database with their associated metadata 
 * GET / users/:id - return an individual user with associated metadata 
-* PUT / users/:id - updates an individual user with provided metadata DELETE / users/ - deletes all current users stored in the database 
+* PUT / users/:id - updates an individual user with provided metadata 
+* DELETE / users/ - deletes all current users stored in the database 
 * DELETE / users/:id - delete an individual user by ID
 
 ## Persistence
