@@ -5,7 +5,6 @@ var mongoose = require('mongoose');
 var db = mongoose.connection;
 
 // Connects to the MongoDB server
-// mongodb://<dbuser>:<dbpassword>@ds121494.mlab.com:21494/instrum-io
 // mongoose.connect('mongodb://localhost:27017/instrumdb');
 mongoose.connect('mongodb://lukehalley:0mkw4st5@ds121494.mlab.com:21494/instrum-io');
 
